@@ -70,7 +70,7 @@ const QUESTIONS_CAP1 = [
 // ============================================================
 const QUESTIONS_CAP2 = [
   {
-    q: "[CTFL 4.0-SAQ09] Considere a seguinte regra: \"para cada atividade do SDLC, há uma atividade de teste correspondente\". Em quais modelos de SDLC essa regra é válida?",
+    q: "Considere a seguinte regra: \"para cada atividade do SDLC, há uma atividade de teste correspondente\". Em quais modelos de SDLC essa regra é válida?",
     opts: [
       "Em modelos de sequenciais, incrementais e iterativos.",
       "Somente em modelos iterativos e incrementais.",
@@ -80,7 +80,7 @@ const QUESTIONS_CAP2 = [
     ans: 0
   },
   {
-    q: "[CTFL 4.0-SAQ10] Qual das seguintes afirmações descreve MELHOR a abordagem de desenvolvimento orientado por testes de aceite (ATDD)?",
+    q: "Qual das seguintes afirmações descreve MELHOR a abordagem de desenvolvimento orientado por testes de aceite (ATDD)?",
     opts: [
       "No ATDD, os testes são baseados no comportamento desejado do software, o que facilita a compreensão dos membros da equipe.",
       "No ATDD, os testes são criados com base em critérios de aceite para orientar o desenvolvimento do software.",
@@ -90,7 +90,7 @@ const QUESTIONS_CAP2 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ11] Qual das opções a seguir NÃO é um exemplo da abordagem shift-left?",
+    q: "Qual das opções a seguir NÃO é um exemplo da abordagem shift-left?",
     opts: [
       "Revisar os requisitos do usuário antes que eles sejam formalmente aceitos pelos stakeholders.",
       "Execução de um teste de eficiência de performance para um componente durante o teste do componente.",
@@ -100,7 +100,7 @@ const QUESTIONS_CAP2 = [
     ans: 3
   },
   {
-    q: "[CTFL 4.0-SAQ12] Qual dos argumentos abaixo você usaria para convencer seu gerente a organizar retrospectivas no final de cada ciclo de lançamento?",
+    q: "Qual dos argumentos abaixo você usaria para convencer seu gerente a organizar retrospectivas no final de cada ciclo de lançamento?",
     opts: [
       "As retrospectivas são muito populares hoje em dia e os clientes gostariam que as adicionássemos aos nossos processos.",
       "A organização de retrospectivas economizará dinheiro, pois os representantes dos usuários finais não fornecem feedback imediato sobre o produto.",
@@ -110,7 +110,7 @@ const QUESTIONS_CAP2 = [
     ans: 2
   },
   {
-    q: "[CTFL 4.0-SAQ13] Quais tipos de falhas (1-4) se encaixam melhor em quais níveis de teste (A-D)?\n(1) Falhas no comportamento do sistema à medida que ele se desvia das necessidades de negócio do usuário.\n(2) Falhas na comunicação entre os componentes.\n(3) Falhas na lógica em um módulo.\n(4) Falhas nas regras de negócios não implementadas corretamente.\n\n(A) Teste de componentes.\n(B) Teste de integração de componentes.\n(C) Teste de sistema.\n(D) Teste de aceite.",
+    q: "Quais tipos de falhas (1-4) se encaixam melhor em quais níveis de teste (A-D)?\n(1) Falhas no comportamento do sistema à medida que ele se desvia das necessidades de negócio do usuário.\n(2) Falhas na comunicação entre os componentes.\n(3) Falhas na lógica em um módulo.\n(4) Falhas nas regras de negócios não implementadas corretamente.\n\n(A) Teste de componentes.\n(B) Teste de integração de componentes.\n(C) Teste de sistema.\n(D) Teste de aceite.",
     opts: [
       "1D, 2B, 3C, 4A",
       "1B, 2A, 3D, 4C",
@@ -527,7 +527,7 @@ const QUESTIONS_CAP3 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0 - SAQ14] Você está testando uma história de usuário com três critérios de aceite (AC1, AC2 e AC3) cobertos respectivamente pelos casos de teste TC1, TC2 e TC3. O histórico de execuções em três versões consecutivas do software foi:\n• Execução 1: TC1(Falhou), TC2(Aprovado), TC3(Falhou)\n• Execução 2: TC1(Aprovado), TC2(Falhou), TC3(Falhou)\n• Execução 3: TC1(Aprovado), TC2(Aprovado), TC3(Aprovado)\n\nOs testes são repetidos quando você é informado de que todos os defeitos encontrados na execução foram corrigidos. Quais dos testes/execuções acima agiram estritamente como testes de regressão (validação de código inalterado)?",
+    q: "Você está testando uma história de usuário com três critérios de aceite (AC1, AC2 e AC3) cobertos respectivamente pelos casos de teste TC1, TC2 e TC3. O histórico de execuções em três versões consecutivas do software foi:\n• Execução 1: TC1(Falhou), TC2(Aprovado), TC3(Falhou)\n• Execução 2: TC1(Aprovado), TC2(Falhou), TC3(Falhou)\n• Execução 3: TC1(Aprovado), TC2(Aprovado), TC3(Aprovado)\n\nOs testes são repetidos quando você é informado de que todos os defeitos encontrados na execução foram corrigidos. Quais dos testes/execuções acima agiram estritamente como testes de regressão (validação de código inalterado)?",
 		image:"imagens/Cap 03/q16.png",
 	opts: [
       "5, 6",
@@ -538,7 +538,7 @@ const QUESTIONS_CAP3 = [
     ans: 2
   },
   {
-    q: "[CTFL 4.0 - SAQ15] Qual das opções a seguir NÃO é um benefício dos testes estáticos?",
+    q: "Qual das opções a seguir NÃO é um benefício dos testes estáticos?",
     opts: [
       "A correction de defeitos encontrados durante o teste estático geralmente é muito mais barata do que a correção de defeitos encontrados durante o teste dinâmico.",
       "Detecção de lacunas e inconsistências nos requisitos.",
@@ -548,7 +548,7 @@ const QUESTIONS_CAP3 = [
     ans: 2
   },
   {
-    q: "[CTFL 4.0 - SAQ16] Qual dos seguintes é um benefício do feedback antecipado e frequente?",
+    q: "Qual dos seguintes é um benefício do feedback antecipado e frequente?",
     opts: [
       "Melhora o processo de teste para projetos futuros.",
       "Ele força os clientes a priorizarem seus requisitos com base nos riscos acordados.",
@@ -558,7 +558,7 @@ const QUESTIONS_CAP3 = [
     ans: 3
   },
   {
-    q: "[CTFL 4.0 - SAQ17] As revisões que estão sendo usadas em sua organização têm os seguintes atributos:\n• Há o papel de um redator (escriba).\n• O principal objetivo é avaliar a qualidade.\n• A reunião é conduzida pelo autor do produto de trabalho.\n• Há uma preparação individual.\n• É produzido um relatório de revisão.\n\nQual dos seguintes tipos de revisão é MAIS provável que esteja sendo usado?",
+    q: "As revisões que estão sendo usadas em sua organização têm os seguintes atributos:\n• Há o papel de um redator (escriba).\n• O principal objetivo é avaliar a qualidade.\n• A reunião é conduzida pelo autor do produto de trabalho.\n• Há uma preparação individual.\n• É produzido um relatório de revisão.\n\nQual dos seguintes tipos de revisão é MAIS provável que esteja sendo usado?",
     opts: [
       "Revisão informal.",
       "Revisão técnica.",
@@ -568,7 +568,7 @@ const QUESTIONS_CAP3 = [
     ans: 2
   },
   {
-    q: "[CTFL 4.0 - SAQ18] Qual dessas afirmações NÃO é um fator que contribui para revisões bem-sucedidas?",
+    q: "Qual dessas afirmações NÃO é um fator que contribui para revisões bem-sucedidas?",
     opts: [
       "Os participantes devem evitar comportamentos que possam indicar tédio, exasperação ou hostilidade com outros participantes.",
       "Dividir grandes produtos de trabalho em pequenas partes para tornar o esforço necessário menos intenso.",
@@ -683,7 +683,7 @@ const QUESTIONS_CAP3 = [
 // ============================================================
 const QUESTIONS_CAP4 = [
   {
-    q: "[CTFL 4.0-SAQ01] O que é teste baseado em checklist?",
+    q: "O que é teste baseado em checklist?",
     opts: [
       "Uma técnica de teste na qual os testes são derivados com base no conhecimento do testador sobre falhas do passado, ou conhecimento geral de falhas.",
       "Uma abordagem aos testes onde os testadores projetam e executam dinamicamente testes baseados em seu conhecimento, exploração do item de teste e nos resultados dos testes anteriores.",
@@ -693,7 +693,7 @@ const QUESTIONS_CAP4 = [
     ans: 3
   },
   {
-    q: "[CTFL 4.0-SAQ02] Qual das seguintes opções descreve MELHOR o teste de transição de estado?",
+    q: "Qual das seguintes opções descreve MELHOR o teste de transição de estado?",
     opts: [
       "Uma técnica de teste de caixa-preta aplicável quando diferentes combinações de entradas resultam em diferentes ações.",
       "Uma técnica de teste de caixa-preta baseada no comportamento do sistema para entradas que acionam mudanças e interações de estado.",
@@ -703,7 +703,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ03] Qual das seguintes opções descreve MELHOR a técnica de partição de equivalência?",
+    q: "Qual das seguintes opções descreve MELHOR a técnica de partição de equivalência?",
     opts: [
       "Dividir as entradas do sistema em grupos que se espera que sejam processados da mesma forma.",
       "Escolher valores nas bordas de blocos lógicos estruturais definidos no código.",
@@ -713,7 +713,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "[CTFL 4.0-SAQ04] Em qual das seguintes situações a análise de valor limite (AVL) é MAIS aplicável?",
+    q: "Em qual das seguintes situações a análise de valor limite (AVL) é MAIS aplicável?",
     opts: [
       "Quando o sistema possui poucos estados lógicos estruturados e dependência temporal.",
       "Quando os requisitos de entrada ou saída são divididos em partições ordenadas contínuas ou discretas.",
@@ -723,7 +723,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ05] Qual é o principal objetivo de usar tabelas de decisão nos testes de software?",
+    q: "Qual é o principal objetivo de usar tabelas de decisão nos testes de software?",
     opts: [
       "Identificar todas as declarações executáveis ocultas no código do programa.",
       "Garantir que as regras de negócio complexas que dependem de combinações de condições sejam totalmente testadas.",
@@ -733,7 +733,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ06] O que caracteriza a técnica de teste de adivinhação de erro?",
+    q: "O que caracteriza a técnica de teste de adivinhação de erro?",
     opts: [
       "Uma técnica matemática de caixa-branca usada para contar caminhos lineares independentes.",
       "Uma técnica estruturada baseada em modelos de fluxo de dados criados pela arquitetura do sistema.",
@@ -743,7 +743,7 @@ const QUESTIONS_CAP4 = [
     ans: 2
   },
   {
-    q: "[CTFL 4.0-SAQ07] O que define o teste exploratório?",
+    q: "O que define o teste exploratório?",
     opts: [
       "Testes projetados estritamente com semanas de antecedência baseados em requisitos formais.",
       "Uma abordagem de teste em que o design, a execução, o registro e o aprendizado de testes ocorrem concorrentemente.",
@@ -753,7 +753,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ08] No teste de caixa-branca, o que significa alcançar 100% de cobertura de declaração (instrução)?",
+    q: "No teste de caixa-branca, o que significa alcançar 100% de cobertura de declaração (instrução)?",
     opts: [
       "Garantir que todas as decisões condicionais do código foram avaliadas como Verdadeiro e Falso.",
       "Garantir que todas as linhas de instruções executáveis do código-fonte foram executadas pelo menos uma vez.",
@@ -763,7 +763,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ09] Os funcionários de uma empresa recebem bônus se trabalharem mais de um ano na empresa e atingirem uma meta que tenha sido acordada individualmente antes. Estes fatos podem ser mostrados na tabela de decisão apresentada na imagem correspondente.\n\nQual dos seguintes casos de teste representa uma situação que pode acontecer na vida real, e está faltando na tabela de decisão?",
+    q: "Os funcionários de uma empresa recebem bônus se trabalharem mais de um ano na empresa e atingirem uma meta que tenha sido acordada individualmente antes. Estes fatos podem ser mostrados na tabela de decisão apresentada na imagem correspondente.\n\nQual dos seguintes casos de teste representa uma situação que pode acontecer na vida real, e está faltando na tabela de decisão?",
     image: "src/imagens/Cap 04/q09.png",
     opts: [
       "Condição 1 = NÃO, Condição 2 = NÃO, Condição 3 = SIM, Ação = NÃO",
@@ -774,7 +774,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ10] Considere o diagrama de transição de estados exibido na imagem para o comportamento de uma TV (representando os estados TV Off, TV Standby e TV Play).\n\nQual das seguintes afirmações sobre este conjunto de testes é VERDADEIRA?",
+    q: "Considere o diagrama de transição de estados exibido na imagem para o comportamento de uma TV (representando os estados TV Off, TV Standby e TV Play).\n\nQual das seguintes afirmações sobre este conjunto de testes é VERDADEIRA?",
     image: "src/imagens/Cap 04/q10.png",
     opts: [
       "Os casos de teste em questão cobrem transições válidas e inválidas no diagrama de transição estatal.",
@@ -785,7 +785,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ11] Qual das seguintes opções descreve uma técnica de teste baseada na especificação (caixa-preta)?",
+    q: "Qual das seguintes opções descreve uma técnica de teste baseada na especificação (caixa-preta)?",
     opts: [
       "Teste de caminhos lógicos baseados no fluxo de controle de dados estruturais.",
       "Teste derivado da análise da arquitetura interna e mapeamento do banco de dados.",
@@ -795,7 +795,7 @@ const QUESTIONS_CAP4 = [
     ans: 2
   },
   {
-    q: "[CTFL 4.0-SAQ12] Qual é o principal benefício do teste baseado em colaboração (como o ATDD ou BDD)?",
+    q: "Qual é o principal benefício do teste baseado em colaboração (como o ATDD ou BDD)?",
     opts: [
       "Aumentar o isolamento do testador em relação aos desenvolvedores para evitar vieses.",
       "Promover um entendimento compartilhado dos requisitos entre desenvolvedores, testadores e representantes de negócios.",
@@ -805,7 +805,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ13] Qual das seguintes alternativas apresenta uma partição de equivalência válida para uma entrada que aceita apenas anos entre 1900 e 2025?",
+    q: "Qual das seguintes alternativas apresenta uma partição de equivalência válida para uma entrada que aceita apenas anos entre 1900 e 2025?",
     opts: [
       "Apenas o valor exato 1950.",
       "Valores menores que 1900, valores entre 1900 e 2025, e valores maiores que 2025.",
@@ -815,7 +815,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ14] No contexto de testes estruturais de caixa-branca, o que representa a cobertura de ramificação?",
+    q: "No contexto de testes estruturais de caixa-branca, o que representa a cobertura de ramificação?",
     opts: [
       "A porcentagem de linhas de código que contêm loops do tipo While ou For exercitados.",
       "A porcentagem de resultados de decisões condicionais (Verdadeiro e Falso) que foram testados.",
@@ -825,18 +825,18 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ15] Considere o modelo de ciclo de vida de transição de estados de uma bateria inteligente (composto pelos estados WAIT, TRICKLE, CHARGE, HIGH, LOW e OFF) ilustrado na imagem.\n\nQual das seguintes sequências de transições proporciona o mais alto nível de cobertura de transição para o modelo?",
-    image: "src/imagens/Cap 04/q15.png",
-    opts: [
-      "HIGH → CHARGE → LOW → CHARGE → TRICKLE → WAIT → TRICKLE → WAIT → TRICKLE",
-      "WAIT → TRICKLE → CHARGE → HIGH → CHARGE → TRICKLE → WAIT → OFF → WAIT",
-      "OFF → WAIT → OFF → WAIT → TRICKLE → CHARGE → HIGH → CHARGE → LOW",
-      "WAIT → TRICKLE → WAIT → OFF → WAIT → TRICKLE → CHARGE → LOW → CHARGE"
-    ],
-    ans: 1
+  q: "Um gravador de radiação diário para plantas produz uma pontuação de luz solar baseada na combinação do número de horas que uma planta está exposta ao sol (abaixo de 3 horas, 3 a 6 horas ou acima de 6 horas) e a intensidade média da luz solar (muito baixa, baixa, média, alta).\n\nDados os seguintes casos de teste ilustrados na imagem.\n\nQual é o número mínimo de casos de teste adicionais necessários para garantir a cobertura total de TODAS as partições de equivalência de entrada válida?",
+  image: "src/imagens/Cap 04/q15.png",
+  opts: [
+    "2",
+    "1",
+    "3",
+    "4"
+  ],
+  ans: 0
   },
   {
-    q: "[CTFL 4.0-SAQ16] Uma das principais vantagens do teste exploratório é:",
+    q: "Uma das principais vantagens do teste exploratório é:",
     opts: [
       "A habilidade de garantir 100% de cobertura de código sem analisar o software estruturalmente.",
       "Sua utilidade quando os requisitos são escassos, desatualizados ou quando há forte pressão de tempo.",
@@ -846,7 +846,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ17] Considere a tabela de decisão exibida na imagem para a parte de um sistema de reservas de companhias aéreas online que permite aos passageiros frequentes resgatar pontos para viagens de recompensa.\n\nSuponha que haja duas partições de equivalência para a condição em que a conta/senha ok não é verdadeira: uma onde a conta é inválida e outra onde a conta é válida, mas a senha é inválida. Suponha que haja apenas uma partição correspondente a Conta/senha ok verdadeira.\nSe você quiser projetar testes para cobrir as partições de equivalência para Conta/senha ok e para esta parte da tabela de decisão, qual é o número mínimo de testes necessários?",
+    q: "Considere a tabela de decisão exibida na imagem para a parte de um sistema de reservas de companhias aéreas online que permite aos passageiros frequentes resgatar pontos para viagens de recompensa.\n\nSuponha que haja duas partições de equivalência para a condição em que a conta/senha ok não é verdadeira: uma onde a conta é inválida e outra onde a conta é válida, mas a senha é inválida. Suponha que haja apenas uma partição correspondente a Conta/senha ok verdadeira.\nSe você quiser projetar testes para cobrir as partições de equivalência para Conta/senha ok e para esta parte da tabela de decisão, qual é o número mínimo de testes necessários?",
     image: ["src/imagens/Cap 04/q17.png", "src/imagens/Cap 04/q17a.png"],
     opts: [
       "3",
@@ -857,18 +857,18 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ18] Considere a matriz exibida na imagem que ilustra os resultados de cobertura de teste alcançados por dois casos de teste (T1 e T2) em sete instruções diferentes de um código de programa.\n\nO caractere 'X' indica que a instrução correspondente foi executada. O que se pode afirmar sobre a cobertura de instruções combinada se executarmos ambos os testes juntos?",
-    image: "scr/imagensCap 04/q18.png",
-    opts: [
-      "A cobertura combinada será exatamente de 105%.",
-      "A cobertura combinada estará obrigatoriamente entre 65% e 100%.",
-      "A cobertura combinada será de no máximo 40%.",
-      "A cobertura combinada será a média aritmética simples (52,5%)."
-    ],
-    ans: 1
+  q: "Dado o seguinte modelo de estado de um software carregador de bateria ilustrado na imagem.\n\nQual das seguintes sequências de transições proporciona o mais alto nível de cobertura de transição para o modelo?",
+  image: "src/imagens/Cap 04/q18.png",
+  opts: [
+    "HIGH → CHARGE → LOW → CHARGE → TRICKLE → WAIT → TRICKLE → WAIT → TRICKLE",
+    "WAIT → TRICKLE → CHARGE → HIGH → CHARGE → TRICKLE → WAIT → OFF → WAIT",
+    "OFF → WAIT → OFF → WAIT → TRICKLE → CHARGE → HIGH → CHARGE → LOW",
+    "WAIT → TRICKLE → WAIT → OFF → WAIT → TRICKLE → CHARGE → LOW → CHARGE"
+  ],
+  ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ19] Qual das seguintes opções descreve a principal característica do teste baseado em casos de uso?",
+    q: "Qual das seguintes opções descreve a principal característica do teste baseado em casos de uso?",
     opts: [
       "Derivar testes baseados estritamente na estrutura interna e fluxo de controle de dados das classes Java.",
       "Projetar testes para validar interações lógicas entre atores (usuários ou sistemas) e o objeto de teste para alcançar um objetivo.",
@@ -878,7 +878,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ20] No formato Gherkin utilizado no desenvolvimento orientado por comportamento (BDD), o que representam as palavras-chave Dado, Quando e Então?",
+    q: "No formato Gherkin utilizado no desenvolvimento orientado por comportamento (BDD), o que representam as palavras-chave Dado, Quando e Então?",
     opts: [
       "Dado: ação do usuário; Quando: pós-condições lógicas; Então: pré-condições estruturais do ambiente.",
       "Dado: pré-condições do cenário; Quando: ação ou evento desencadeador; Então: resultado esperado ou pós-condições.",
@@ -888,7 +888,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ21] A análise de valor limite clássica de 2 valores para um campo de texto que aceita uma senha de 8 a 16 caracteres deve testar quais comprimentos?",
+    q: "A análise de valor limite clássica de 2 valores para um campo de texto que aceita uma senha de 8 a 16 caracteres deve testar quais comprimentos?",
     opts: [
       "7, 8, 16 e 17 caracteres.",
       "8, 9, 15 e 16 caracteres.",
@@ -898,7 +898,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "[CTFL 4.0-SAQ22] Se um caso de teste cobre uma partição de equivalência inválida para um campo de entrada numérico, o que o testador deve garantir ao projetar as outras entradas lógicas desse caso de teste?",
+    q: "Se um caso de teste cobre uma partição de equivalência inválida para um campo de entrada numérico, o que o testador deve garantir ao projetar as outras entradas lógicas desse caso de teste?",
     opts: [
       "Que todas as outras entradas também sejam inválidas para testar o tratamento massivo de erros.",
       "Que todas as outras entradas sejam válidas, garantindo que a falha observada seja causada estritamente pela entrada inválida sob teste.",
@@ -908,7 +908,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ23] O que diferencia o teste de caixa-branca do teste de caixa-preta?",
+    q: "O que diferencia o teste de caixa-branca do teste de caixa-preta?",
     opts: [
       "O teste de caixa-branca foca nos requisitos, enquanto o teste de caixa-preta foca no design da interface.",
       "O teste de caixa-branca baseia-se na análise da estrutura interna, código ou arquitetura do sistema, enquanto o de caixa-preta baseia-se na análise da especificação funcional.",
@@ -918,7 +918,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ24] Qual técnica de teste baseada na experiência envolve o uso de sessões estruturadas limitadas pelo tempo, chamadas de charters de teste?",
+    q: "Qual técnica de teste baseada na experiência envolve o uso de sessões estruturadas limitadas pelo tempo, chamadas de charters de teste?",
     opts: [
       "Adivinhação de erro.",
       "Teste exploratório.",
@@ -928,7 +928,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ25] Em relação à cobertura de ramificação e cobertura de declaração, qual das seguintes afirmações é estritamente VERDADEIRA?",
+    q: "Em relação à cobertura de ramificação e cobertura de declaração, qual das seguintes afirmações é estritamente VERDADEIRA?",
     opts: [
       "100% de cobertura de declaração garante automaticamente 100% de cobertura de ramificação.",
       "100% de cobertura de ramificação garante automaticamente 100% de cobertura de declaração.",
@@ -938,7 +938,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ26] No desenvolvimento orientado por testes de aceitação (ATDD), os testes são criados:",
+    q: "No desenvolvimento orientado por testes de aceitação (ATDD), os testes são criados:",
     opts: [
       "Após a codificação completa do sistema estar estabilizada no ambiente de homologação final.",
       "Antes do código correspondente ser escrito, baseando-se na colaboração para detalhar os critérios de aceitação.",
@@ -948,7 +948,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ27] Um campo de entrada aceita um código de desconto composto por um único caractere alfabético maiúsculo (A-Z). Usando a análise de valor limite de 2 valores, quais caracteres/valores lógicos devem ser validados na fronteira externa direta?",
+    q: "Um campo de entrada aceita um código de desconto composto por um único caractere alfabético maiúsculo (A-Z). Usando a análise de valor limite de 2 valores, quais caracteres/valores lógicos devem ser validados na fronteira externa direta?",
     opts: [
       "A, B, Y, Z.",
       "A, Z e os caracteres imediatamente adjacentes fora do intervalo válido (como @ e [ ).",
@@ -958,7 +958,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ28] Qual das seguintes opções descreve um estado inválido no teste de transição de estado?",
+    q: "Qual das seguintes opções descreve um estado inválido no teste de transição de estado?",
     opts: [
       "Um estado que não possui transições de saída lógicas de sucesso estruturadas.",
       "Uma tentativa de disparar um evento que não é permitido a partir do estado atual do sistema.",
@@ -968,7 +968,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ29] No teste baseado em casos de uso, os cenários que descrevem desvios do comportamento padrão que ainda assim levam ao objetivo do ator são chamados de:",
+    q: "No teste baseado em casos de uso, os cenários que descrevem desvios do comportamento padrão que ainda assim levam ao objetivo do ator são chamados de:",
     opts: [
       "Fluxos básicos ou principais.",
       "Fluxos alternativos.",
@@ -978,7 +978,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "[CTFL 4.0-SAQ30] O principal motivo para medir a cobertura de testes é:",
+    q: "O principal motivo para medir a cobertura de testes é:",
     opts: [
       "Garantir a ausência total de defeitos em qualquer cenário remanescente do código.",
       "Fornecer um indicador quantitativo da extensão em que os itens de cobertura foram exercitados pelos testes.",
@@ -988,7 +988,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 31 - Considere o modelo de transição de estados composto por 3 estados e 4 transições lógicas exibido na imagem do enunciado.\n\nVocê está projetando casos de teste com base neste diagrama de transição de estados. Qual é o número MÍNIMO de casos de teste necessários para alcançar uma cobertura de transições válidas de 100%, assumindo que todos os estados podem ser visitados em um único fluxo contínuo?",
+    q: "Considere o modelo de transição de estados composto por 3 estados e 4 transições lógicas exibido na imagem do enunciado.\n\nVocê está projetando casos de teste com base neste diagrama de transição de estados. Qual é o número MÍNIMO de casos de teste necessários para alcançar uma cobertura de transições válidas de 100%, assumindo que todos os estados podem ser visitados em um único fluxo contínuo?",
     image: "scr/imagens/Cap 04/q31.png",
     opts: [
       "3",
@@ -999,7 +999,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 32 - Analise atentamente o fragmento de código de um componente de software estrutural apresentado na imagem correspondente.\n\nComo o teste de caixa branca pode ser útil para apoiar o teste de caixa preta?",
+    q: "Analise atentamente o fragmento de código de um componente de software estrutural apresentado na imagem correspondente.\n\nComo o teste de caixa branca pode ser útil para apoiar o teste de caixa preta?",
     image: "src/imagens/Cap 04/q32.png",
     opts: [
       "As medidas de cobertura de caixa branca podem ajudar os testadores a avaliar os testes de caixa preta em termos da cobertura de código alcançada por esses testes de caixa preta.",
@@ -1010,7 +1010,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "Questão 33 - Qual das seguintes opções descreve MELHOR a principal diferença entre técnicas de teste caixa-preta e caixa-branca?",
+    q: "Qual das seguintes opções descreve MELHOR a principal diferença entre técnicas de teste caixa-preta e caixa-branca?",
     opts: [
       "As técnicas caixa-preta são técnicas dinâmicas, enquanto as técnicas caixa-branca são estáticas.",
       "As técnicas caixa-preta baseiam-se na estrutura do item de teste, enquanto as técnicas caixa-branca baseiam-se nos modelos de requisitos lógicos estruturados.",
@@ -1020,7 +1020,7 @@ const QUESTIONS_CAP4 = [
     ans: 2
   },
   {
-    q: "Questão 34 - Qual das seguintes técnicas de teste NÃO é uma técnica de teste baseada na especificação (caixa-preta)?",
+    q: "Qual das seguintes técnicas de teste NÃO é uma técnica de teste baseada na especificação (caixa-preta)?",
     opts: [
       "Partição de equivalência.",
       "Tabela de decisão.",
@@ -1030,7 +1030,7 @@ const QUESTIONS_CAP4 = [
     ans: 3
   },
   {
-    q: "Questão 35 - Qual das seguintes opções descreve a cobertura de declaração (instrução)?",
+    q: "Qual das seguintes opções descreve a cobertura de declaração (instrução)?",
     opts: [
       "A proporção de instruções executáveis exercitadas por casos de teste em relação ao número total de instruções executáveis no item de teste.",
       "A proporção de caminhos lógicos exercitados por casos de teste em relação ao número total de caminhos lógicos no item de teste.",
@@ -1040,7 +1040,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "Questão 36 - Analise o diagrama de controle de fluxo de um pequeno algoritmo exibido na imagem em anexo.\n\nSeja a métrica de cobertura de ramificação definida em engenharia de software estrutural. O que representa o dividendo e o divisor nessa fórmula de cobertura?",
+    q: "Analise o diagrama de controle de fluxo de um pequeno algoritmo exibido na imagem em anexo.\n\nSeja a métrica de cobertura de ramificação definida em engenharia de software estrutural. O que representa o dividendo e o divisor nessa fórmula de cobertura?",
     image: ["src/imagens/Cap 04/q36.png","src/imagens/Cap 04/q36a.png"],
     opts: [
       "X = número de ramificações exercidas pelos casos de teste; Y = número total de ramificações no código.",
@@ -1051,7 +1051,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "Questão 37 - Considere a tabela de decisão de entrada limitada estruturada para um sistema de validação de cupons de desconto apresentada na imagem.\n\nEm uma tabela de decisão de entrada limitada, o que representa cada coluna da tabela?",
+    q: "Considere a tabela de decisão de entrada limitada estruturada para um sistema de validação de cupons de desconto apresentada na imagem.\n\nEm uma tabela de decisão de entrada limitada, o que representa cada coluna da tabela?",
     image: "src/imagens/Cap 04/q37.png",
     opts: [
       "Uma ação isolada do sistema.",
@@ -1062,7 +1062,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 38 - Considere o diagrama de blocos lógicos estruturais de desvio em um componente de software exibido na imagem.\n\nNo contexto de testes estruturais (caixa-branca), o termo 'ramificação' (branch) refere-se a qual elemento lógico do programa?",
+    q: "Considere o diagrama de blocos lógicos estruturais de desvio em um componente de software exibido na imagem.\n\nNo contexto de testes estruturais (caixa-branca), o termo 'ramificação' (branch) refere-se a qual elemento lógico do programa?",
     image: "src/imagens/Cap 04/q38.png",
     opts: [
       "Uma linha de comentário explicativa escrita pelo desenvolvedor.",
@@ -1073,7 +1073,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 39 - Qual das seguintes alternativas descreve a principal característica das técnicas de teste baseadas na experiência?",
+    q: "Qual das seguintes alternativas descreve a principal característica das técnicas de teste baseadas na experiência?",
     opts: [
       "Os casos de teste são derivados com base na análise da estrutura do código-fonte ou da arquitetura do sistema.",
       "Os casos de teste são derivados com base no conhecimento e na intuição do testador sobre possíveis falhas, erros e defeitos baseados no histórico passado.",
@@ -1083,7 +1083,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 40 - Qual das seguintes técnicas de teste é baseada no conhecimento do testador sobre defeitos comuns e falhas típicas?",
+    q: "Qual das seguintes técnicas de teste é baseada no conhecimento do testador sobre defeitos comuns e falhas típicas?",
     opts: [
       "Partição de equivalência.",
       "Adivinhação de erro.",
@@ -1093,7 +1093,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 41 - Qual das seguintes opções descreve MELHOR o teste exploratório?",
+    q: "Qual das seguintes opções descreve MELHOR o teste exploratório?",
     opts: [
       "Uma técnica de teste em que o testador executa casos de teste pré-planejados com base em checklists formais de alto nível.",
       "Uma abordagem de teste informal em que o testador projeta e executa dinamicamente testes com base em seu conhecimento, exploração do item de teste e resultados de testes anteriores.",
@@ -1103,7 +1103,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 42 - Qual das seguintes opções NÃO é um elemento típico de um caso de teste?",
+    q: "Qual das seguintes opções NÃO é um elemento típico de um caso de teste?",
     opts: [
       "Um conjunto de valores de entrada lógicos estruturados.",
       "Pré-condições operacionais do ambiente.",
@@ -1113,7 +1113,7 @@ const QUESTIONS_CAP4 = [
     ans: 3
   },
   {
-    q: "Questão 43 - Qual das seguintes opções descreve um objetivo principal do teste baseado em checklist?",
+    q: "Qual das seguintes opções descreve um objetivo principal do teste baseado em checklist?",
     opts: [
       "Garantir a cobertura completa de todas as instruções executáveis do código-fonte do componente sob teste.",
       "Usar uma lista de itens de alto nível a serem anotados, verificados ou lembrados para fornecer consistência na cobertura do teste.",
@@ -1123,7 +1123,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 44 - Qual das seguintes opções descreve uma técnica de teste baseada na colaboração?",
+    q: "Qual das seguintes opções descreve uma técnica de teste baseada na colaboração?",
     opts: [
       "Teste baseado em casos de uso executado isoladamente pela equipe de garantia de qualidade (QA).",
       "Desenvolvimento Orientado por Testes de Aceitação (ATDD), onde os testes são criados em conjunto por representantes de negócios, desenvolvedores e testadores.",
@@ -1133,7 +1133,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 45 - No contexto do desenvolvimento orientado por comportamento (BDD), qual formato estruturado é comumente usado para escrever cenários de teste com base em critérios de aceitação?",
+    q: "No contexto do desenvolvimento orientado por comportamento (BDD), qual formato estruturado é comumente usado para escrever cenários de teste com base em critérios de aceitação?",
     opts: [
       "XML com tags customizadas de causa e efeito.",
       "Matrizes de transição booleanas de três valores lógicos.",
@@ -1143,7 +1143,7 @@ const QUESTIONS_CAP4 = [
     ans: 2
   },
   {
-    q: "Questão 46 - Qual das seguintes alternativas descreve a partição de equivalência?",
+    q: "Qual das seguintes alternativas descreve a partição de equivalência?",
     opts: [
       "Uma técnica de teste baseada na experiência onde o testador agrupa erros semelhantes cometidos por desenvolvedores juniores.",
       "Uma técnica de teste caixa-preta aplicável quando os requisitos lógicos estruturados são divididos em intervalos contínuos de valores discretos ordenados.",
@@ -1153,7 +1153,7 @@ const QUESTIONS_CAP4 = [
     ans: 2
   },
   {
-    q: "Questão 47 - Qual das seguintes opções descreve a principal característica da análise de valor limite (AVL)?",
+    q: "Qual das seguintes opções descreve a principal característica da análise de valor limite (AVL)?",
     opts: [
       "É uma técnica de teste caixa-branca focada nos limites estruturais de laços lógicos iterativos.",
       "É uma técnica de teste de caixa-preta aplicável quando as partições de equivalência contêm valores contínuos ou discretos ordenados, focando nos valores extremos dessas partições.",
@@ -1163,18 +1163,18 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 48 - Um sistema de armazenamento pode armazenar até três elementos e é modelado por um diagrama de transição de estados. A variável N representa o número de elementos atualmente armazenados. Considere os eventos 'Add' (Adicionar) e 'Remove' (Remover) ilustrados no diagrama da imagem.\n\nSe N = 3, o sistema está CHEIO. Qual das seguintes sequências de eventos alcança 100% de cobertura de transições válidas no modelo partindo de N = 0?",
-    image: "src/imagens/Cap 04/q48.png",
-    opts: [
-      "Add, Add, Add, Remove, Add",
-      "Add, Remove, Add, Add, Add",
-      "Add, Add, Add, Remove, Remove",
-      "Add, Add, Add, Add, Remove, Remove"
-    ],
-    ans: 2
+  q: "A tabela de decisão a seguir contém as regras para determinar o risco de aterosclerose ilustrada na imagem.\n\nVocê projetou os casos de teste com os seguintes dados de entrada de teste:\n\nTC1: Colesterol = 125 mg/dl | Pressão sanguínea = 141 mmHg\nTC2: Colesterol = 200 mg/dl | Pressão sanguínea = 201 mmHg\nTC3: Colesterol = 124 mg/dl | Pressão sanguínea = 201 mmHg\nTC4: Colesterol = 109 mg/dl | Pressão sanguínea = 200 mmHg\nTC5: Colesterol = 201 mg/dl | Pressão sanguínea = 140 mmHg\n\nQual é a cobertura da tabela de decisão alcançada por esses casos de teste?",
+  image: "src/imagens/Cap 04/q48.png",
+  opts: [
+    "40%",
+    "100%",
+    "60%",
+    "80%"
+  ],
+  ans: 2
   },
   {
-    q: "Questão 49 - Considere a matriz de cobertura apresentada na imagem, que detalha a relação de execução entre múltiplos casos de teste e as ramificações lógicas encontradas no código do componente sob análise.\n\nSeja a métrica de cobertura de ramificação definida em engenharia de software estrutural. O que representa o dividendo e o divisor nessa fórmula de cobertura?",
+    q: "Considere a matriz de cobertura apresentada na imagem, que detalha a relação de execução entre múltiplos casos de teste e as ramificações lógicas encontradas no código do componente sob análise.\n\nSeja a métrica de cobertura de ramificação definida em engenharia de software estrutural. O que representa o dividendo e o divisor nessa fórmula de cobertura?",
     image: "src/imagens/Cap 04/q49.png",
     opts: [
       "X = número de ramificações exercidas pelos casos de teste; Y = número total de ramificações no código.",
@@ -1185,7 +1185,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "Questão 50 - Qual das seguintes opções descreve a principal característica do teste baseado em casos de uso?",
+    q: "Qual das seguintes opções descreve a principal característica do teste baseado em casos de uso?",
     opts: [
       "Os casos de teste são projetados para exercer os caminhos lógicos de dados e interações descritos em cenários de casos de uso do sistema.",
       "Os casos de teste são baseados inteiramente nas funções internas de tratamento de exceções assíncronas do código do programa.",
@@ -1195,7 +1195,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "Questão 51 - Qual das seguintes alternativas apresenta uma desvantagem comum do teste baseado estritamente na experiência?",
+    q: "Qual das seguintes alternativas apresenta uma desvantagem comum do teste baseado estritamente na experiência?",
     opts: [
       "Requer ferramentas de automação comerciais caras e complexas para medir a eficácia das execuções lógicas.",
       "Pode apresentar cobertura inconsistente e falta de reprodutibilidade, dependendo muito da habilidade, foco e conhecimento individual do testador.",
@@ -1205,7 +1205,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 52 - No contexto do teste exploratório, o que é um 'charter de teste'?",
+    q: "No contexto do teste exploratório, o que é um 'charter de teste'?",
     opts: [
       "Um documento formal de plano de teste que descreve o orçamento financeiro e cronograma detalhado de liberação do produto.",
       "Uma declaração de objetivos de teste e possíveis ideias de teste, usada para orientar uma sessão curta e focada de teste exploratório.",
@@ -1215,7 +1215,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 53 - Uma empresa de comércio eletrônico oferece frete grátis para compras acima de R$ 150,00. Usando a análise de valor limite de 2 valores lógicos, quais valores exatos de compra devem ser testados para validar o limite operacional do cálculo do frete?",
+    q: "Uma empresa de comércio eletrônico oferece frete grátis para compras acima de R$ 150,00. Usando a análise de valor limite de 2 valores lógicos, quais valores exatos de compra devem ser testados para validar o limite operacional do cálculo do frete?",
     opts: [
       "R$ 149,99 e R$ 150,00",
       "R$ 150,00 e R$ 150,01",
@@ -1225,7 +1225,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "Questão 54 - Qual das seguintes opções descreve um item de cobertura para a técnica de partição de equivalência?",
+    q: "Qual das seguintes opções descreve um item de cobertura para a técnica de partição de equivalência?",
     opts: [
       "Uma ramificação condicional individual avaliada no código-fonte.",
       "Uma classe de equivalência (ou partição) identificada a partir do domínio de dados de entrada ou saída do item sob análise.",
@@ -1235,7 +1235,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 55 - Qual das seguintes opções descreve uma situação em que a técnica de tabela de decisão é ALTAMENTE recomendada?",
+    q: "Qual das seguintes opções descreve uma situação em que a técnica de tabela de decisão é ALTAMENTE recomendada?",
     opts: [
       "Quando o sistema possui poucos estados estruturados e depende de eventos temporais sequenciais discretos.",
       "Quando o comportamento do sistema é determinado por combinações complexas de múltiplas condições de entrada booleanas ou discretas.",
@@ -1245,7 +1245,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 56 - O que mede a métrica de cobertura de declaração (instrução) no teste de caixa-branca?",
+    q: "O que mede a métrica de cobertura de declaração (instrução) no teste de caixa-branca?",
     opts: [
       "A porcentagem de pontos de decisão condicional testados com sucesso.",
       "A porcentagem de instruções executáveis no código-fonte que foram exercitadas pelo menos uma vez pelos casos de teste.",
@@ -1255,7 +1255,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 57 - No contexto do teste de transição de estado, o que representa um 'estado'?",
+    q: "No contexto do teste de transição de estado, o que representa um 'estado'?",
     opts: [
       "Uma condição ou modo em que o sistema está aguardando um ou mais eventos, ou executando uma atividade contínua estruturada.",
       "Um evento de entrada enviado pelo usuário que altera o fluxo lógico operacional do programa.",
@@ -1265,7 +1265,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "Questão 58 - Qual das seguintes alternativas descreve uma característica importante dos testes baseados em checklists?",
+    q: "Qual das seguintes alternativas descreve uma característica importante dos testes baseados em checklists?",
     opts: [
       "Os itens da lista de verificação devem ser detalhados no nível de scripts de teste passo a passo para evitar ambiguidades operacionais.",
       "Eles fornecem uma estrutura de alto nível para consistência, mas dão ao testador flexibilidade na forma como executam os testes lógicos reais.",
@@ -1275,40 +1275,40 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 59 - Um desenvolvedor foi solicitado a implementar uma regra de negócio condicional baseada em limites numéricos. Analise o fluxo lógico e os pontos de decisão apresentados no diagrama estrutural da imagem.\n\nVocê projeta os casos de teste usando análise de valores limite de 2 valores. Qual dos seguintes conjuntos de entradas de teste alcança a maior cobertura de limites válidos e inválidos?",
-    image: "src/imagens/Cap 04/q59.png",
-    opts: [
-      "100, 150, 200, 201",
-      "99, 100, 200, 201",
-      "98, 99, 100, 101",
-      "101, 150, 199, 200"
-    ],
-    ans: 0
+  q: "Você está trabalhando em um projeto para desenvolver um sistema para analisar resultados de testes de direção. Você foi solicitado a projetar casos de teste com base na tabela de decisão ilustrada na imagem.\n\nQue dados de teste mostrarão que existem regras contraditórias na tabela de decisão?",
+  image: "src/imagens/Cap 04/q59.png",
+  opts: [
+    "C1 = T, C2 = T, C3 = F",
+    "C1 = T, C2 = F, C3 = T",
+    "C1 = T, C2 = T, C3 = T e C1 = F, C2 = T, C3 = T",
+    "C1 = F, C2 = F, C3 = F"
+  ],
+  ans: 3
   },
   {
-    q: "Questão 60 - Você está trabalhando em um projeto para desenvolver um sistema para analisar resultados de testes de direção. Você foi solicitado a projetar casos de teste com base na tabela de decisão exibida na imagem correspondente.\n\nQual a principal vantagem de usar essa tabela no projeto de teste?",
-    image: "src/imagens/Cap 04/q60.png",
-    opts: [
-      "Garantir que todos os caminhos do código-fonte criados pelo desenvolvedor do sistema de trânsito sejam cobertos.",
-      "Permitir identificar de forma clara e estruturada como o sistema reage diante de cada combinação de aprovações/reprovações dos exames.",
-      "Automatizar o envio das licenças de direção sem a necessidade de hardware.",
-      "Reduzir o tempo de treinamento dos novos instrutores de direção da autoescola."
-    ],
-    ans: 1
-  },
+  q: "Você está projetando casos de teste com base no seguinte diagrama de transição de estados ilustrado na imagem.\n\nQual é o número MÍNIMO de casos de teste necessários para alcançar uma cobertura de transições válidas de 100%?",
+  image: "src/imagens/Cap 04/q60.png",
+  opts: [
+    "3",
+    "2",
+    "5",
+    "6"
+  ],
+  ans: 0
+ },
   {
-    q: "Questão 61 - Analise o modelo de transição de estados composto por estados sequenciais e suas respectivas transições ativas exibido na imagem.\n\nQual é o número MÍNIMO de casos de teste necessários para alcançar uma cobertura de transições válidas de 100%, assumindo que todos os estados podem ser visitados em um único fluxo contínuo?",
-    image: "src/imagens/Cap 04/q61.png",
-    opts: [
-      "3",
-      "1",
-      "5",
-      "6"
-    ],
-    ans: 1
-  },
+  q: "Você deseja aplicar teste de ramificação ao código representado pelo seguinte grafo de fluxo de controle ilustrado na imagem.\n\nQuantos itens de cobertura você precisa testar?",
+  image: "src/imagens/Cap 04/q61.png",
+  opts: [
+    "2",
+    "4",
+    "8",
+    "7"
+  ],
+  ans: 2
+ },
   {
-    q: "Questão 62 - Qual das seguintes opções descreve a cobertura de partição de equivalência?",
+    q: "Qual das seguintes opções descreve a cobertura de partição de equivalência?",
     opts: [
       "O número de classes de equivalência exercitadas pelos casos de teste dividido pelo número total de classes de equivalência identificadas.",
       "A proporção de linhas de código que pertencem a uma mesma partição de dados lógicos estruturados executados com sucesso.",
@@ -1318,7 +1318,7 @@ const QUESTIONS_CAP4 = [
     ans: 0
   },
   {
-    q: "Questão 63 - No contexto do teste de caixa-branca, se um conjunto de casos de teste alcançou 100% de cobertura de ramificação, o que se pode afirmar sobre a cobertura de declaração?",
+    q: "No contexto do teste de caixa-branca, se um conjunto de casos de teste alcançou 100% de cobertura de ramificação, o que se pode afirmar sobre a cobertura de declaração?",
     opts: [
       "A cobertura de declaração será de exatamente 50% devido à exclusão das ramificações falsas lógicas.",
       "A cobertura de declaração será necessariamente de 100%, pois cobrir todos os resultados de decisão garante exercitar todas as instruções internas.",
@@ -1328,7 +1328,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 64 - Qual das seguintes alternativas apresenta uma atividade crítica realizada durante o teste baseado em casos de uso?",
+    q: "Qual das seguintes alternativas apresenta uma atividade crítica realizada durante o teste baseado em casos de uso?",
     opts: [
       "Mapear todas as variáveis lógicas globais usadas na codificação interna das classes do microsserviço sob teste.",
       "Projetar casos de teste para validar o fluxo básico (cenário de sucesso) e os fluxos alternativos ou de exceção descritos no caso de uso.",
@@ -1338,7 +1338,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 65 - Qual das seguintes opções descreve a principal característica do teste baseado na experiência?",
+    q: "Qual das seguintes opções descreve a principal característica do teste baseado na experiência?",
     opts: [
       "Os casos de teste são derivados com base em métricas matemáticas de complexidade ciclomática do grafo lógicos estruturados.",
       "Eles complementam as técnicas de caixa-preta e caixa-branca usando o conhecimento do testador, histórico de falhas e intuição para encontrar defeitos ocultos.",
@@ -1348,7 +1348,7 @@ const QUESTIONS_CAP4 = [
     ans: 1
   },
   {
-    q: "Questão 66 - Você está usando o desenvolvimento orientado por testes de aceitação e projetando casos de teste com base na seguinte história do usuário: Como usuário Regular ou Especial, quero poder usar meu cartão eletrônico de acesso para acessar andares específicos. Critérios de aceitação: CA1: Usuários Regulares têm acesso aos andares 1 a 3. CA2: O andar 4 só é acessível para usuários Especiais. CA3: Usuários Especiais têm todos os direitos de acesso dos Usuários Regulares. Qual caso de teste é o MAIS razoável para testar o CA3?",
+    q: "Você está usando o desenvolvimento orientado por testes de aceitação e projetando casos de teste com base na seguinte história do usuário: Como usuário Regular ou Especial, quero poder usar meu cartão eletrônico de acesso para acessar andares específicos. Critérios de aceitação: CA1: Usuários Regulares têm acesso aos andares 1 a 3. CA2: O andar 4 só é acessível para usuários Especiais. CA3: Usuários Especiais têm todos os direitos de acesso dos Usuários Regulares. Qual caso de teste é o MAIS razoável para testar o CA3?",
     opts: [
       "Verificar se um usuário Regular pode acessar os andares 1 e 3.",
       "Verificar se um usuário Regular não pode acessar o andar 4.",
@@ -1365,7 +1365,7 @@ const QUESTIONS_CAP4 = [
 const QUESTIONS_CAP5 = [
 
 {
-    q: "Questão 1 - Qual das seguintes declarações MELHOR descreve como as tarefas são divididas entre o gerente de testes e o testador?",
+    q: "Qual das seguintes declarações MELHOR descreve como as tarefas são divididas entre o gerente de testes e o testador?",
     opts: [
       "O gerente de testes planeja as atividades de teste e escolhe os padrões a serem seguidos, enquanto o testador escolhe as ferramentas e estabelece as diretrizes de uso das ferramentas",
       "O gerente de testes planeja e organiza os testes e especifica os casos de teste, enquanto o testador executa os testes",
@@ -1375,7 +1375,7 @@ const QUESTIONS_CAP5 = [
     ans: 3
   },
   {
-    q: "Questão 2 - Qual das seguintes métricas seria a mais útil para monitorar durante a execução do teste?",
+    q: "Qual das seguintes métricas seria a mais útil para monitorar durante a execução do teste?",
     opts: [
       "Porcentagem de casos de teste executados",
       "Porcentagem de casos de teste ja criados e revisados",
@@ -1385,7 +1385,7 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 3 - Qual dos seguintes aspectos pode afetar e fazer parte do planejamento (inicial) do teste?",
+    q: "Qual dos seguintes aspectos pode afetar e fazer parte do planejamento (inicial) do teste?",
     opts: [
       "Casos de uso",
       "Limitações orçamentárias",
@@ -1395,7 +1395,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 4 - Qual das listas a seguir contém apenas os critérios típicos de saída dos testes?",
+    q: "Qual das listas a seguir contém apenas os critérios típicos de saída dos testes?",
     opts: [
       "Medidas de confiabilidade, cobertura de teste, grau de independência do testador e completude do produto",
       "Tempo para comercialização, defeitos restantes, qualificação do testador, disponibilidade de casos de uso testável, cobertura de teste e custo do teste",
@@ -1405,7 +1405,7 @@ const QUESTIONS_CAP5 = [
     ans: 2
   },
   {
-    q: "Questão 5 - Qual dos itens a seguir NÃO esta incluído em um relatório resumido de teste?",
+    q: "Qual dos itens a seguir NÃO esta incluído em um relatório resumido de teste?",
     opts: [
       "Avaliação da qualidade do objeto de teste",
       "Definição de critérios de aprovação/reprovação e objetivos dos testes",
@@ -1415,7 +1415,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 6 - O projeto desenvolve um termostato de aquecimento 'inteligente'. Os algoritmos de controle foram modelados como modelos Matlab/Simulink e executados no servidor. O gerente de teste definiu a seguinte estratégia/abordagem de teste no plano de teste: 1. O teste de aceite como teste baseado na experiência. 2. Algoritmos de controle verificados em relação ao padrão do regulamento de economia de energia. 3. Teste funcional do termostato como teste baseado em risco. 4. Testes de segurança de dados/comunicação via internet executados com especialistas externos. Que quatro tipos comuns de estratégias/abordagens de teste o gerente de testes implementou?",
+    q: "O projeto desenvolve um termostato de aquecimento 'inteligente'. Os algoritmos de controle foram modelados como modelos Matlab/Simulink e executados no servidor. O gerente de teste definiu a seguinte estratégia/abordagem de teste no plano de teste: 1. O teste de aceite como teste baseado na experiência. 2. Algoritmos de controle verificados em relação ao padrão do regulamento de economia de energia. 3. Teste funcional do termostato como teste baseado em risco. 4. Testes de segurança de dados/comunicação via internet executados com especialistas externos. Que quatro tipos comuns de estratégias/abordagens de teste o gerente de testes implementou?",
     opts: [
       "analítico, conforme às normas, consultivo e reativo",
       "metódico, analítico, reativo e avesso à regressão",
@@ -1425,7 +1425,7 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 7 - Qual das seguintes é a característica de uma abordagem baseada em métricas para a estimativa de teste?",
+    q: "Qual das seguintes é a característica de uma abordagem baseada em métricas para a estimativa de teste?",
     opts: [
       "Experiência geral coletada em entrevistas com gerentes de testes",
       "Estimativa de esforço para automação de testes acordada na equipe de teste",
@@ -1435,7 +1435,7 @@ const QUESTIONS_CAP5 = [
     ans: 3
   },
 {
-    q: "Questão 8 - Como gerente de testes, você é responsável por testar:\nR1: Anomalias de processo\nR2: Sincronização\nR3: Aprovação\nR4: Solução de problemas\nR5: Dados financeiros\nR6: Dados do diagrama\nR7: Mudanças no perfil do usuário.\n\nNotação: A -> B significa que B depende de A.\nQual das seguintes opções estrutura o cronograma de execução de testes de acordo com as dependências de requisitos?",
+    q: "Como gerente de testes, você é responsável por testar:\nR1: Anomalias de processo\nR2: Sincronização\nR3: Aprovação\nR4: Solução de problemas\nR5: Dados financeiros\nR6: Dados do diagrama\nR7: Mudanças no perfil do usuário.\n\nNotação: A -> B significa que B depende de A.\nQual das seguintes opções estrutura o cronograma de execução de testes de acordo com as dependências de requisitos?",
     image: "src/imagens/Cap 05/q08.png", // Certifique-se de que o caminho da imagem está correto
     opts: [
       "R1 -> R3 -> R4 -> R7 -> R2 -> R5 -> R6",
@@ -1446,7 +1446,7 @@ const QUESTIONS_CAP5 = [
     ans: 0 // A alternativa correta geralmente é a primeira (baseado nos simulados CTFL)
   },
   {
-    q: "Questão 9 - Você está testando uma máquina de café (categorias: Tamanho, Açúcar, Leite, Xarope). Você escreveu um relatório de defeito com: Título (Baixa temperatura), Resumo (Tempo longo e temperatura < 40°C), Resultado esperado (75°C), Grau de risco (Médio), Prioridade (Normal). Que informações valiosas foram omitidas no relatório de defeitos acima?",
+    q: "Você está testando uma máquina de café (categorias: Tamanho, Açúcar, Leite, Xarope). Você escreveu um relatório de defeito com: Título (Baixa temperatura), Resumo (Tempo longo e temperatura < 40°C), Resultado esperado (75°C), Grau de risco (Médio), Prioridade (Normal). Que informações valiosas foram omitidas no relatório de defeitos acima?",
     opts: [
       "Idéias para melhorar o caso teste",
       "Status do defeito",
@@ -1457,7 +1457,7 @@ const QUESTIONS_CAP5 = [
   },
   
   {
-    q: "Questão 10 - Qual dos seguintes explica MELHOR um benefício dos testes independentes?",
+    q: "Qual dos seguintes explica MELHOR um benefício dos testes independentes?",
     opts: [
       "Quando as especificações contêm ambiguidades, são feitas suposições; um testador independente pode questionar essas suposições e a interpretação do desenvolvedor.",
       "O uso de uma equipe independente permite atribuir a responsabilidade pela qualidade final apenas à equipe de teste.",
@@ -1467,7 +1467,7 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 11 - Qual das seguintes tarefas é MUITO MAIS EFICIENTE a ser executada pelo gerente de testes?",
+    q: "Qual das seguintes tarefas é MUITO MAIS EFICIENTE a ser executada pelo gerente de testes?",
     opts: [
       "Preparar e adquirir dados de teste.",
       "Analisar, rever e avaliar os requisitos, especificações e modelos de testabilidade.",
@@ -1477,7 +1477,7 @@ const QUESTIONS_CAP5 = [
     ans: 2
   },
   {
-    q: "Questão 12 - Dados os seguintes critérios: (1) Orçamento de $37.000 gasto; (2) 96% dos testes do pacote de desenho executados; (3) Ambiente de teste montado e verificado; (4) Nenhum defeito crítico pendente; (5) Especificações do piloto automático revisadas; (6) Componente de imposto passou nos testes unitários. Qual a classificação correta entre critérios de entrada e saída?",
+    q: "Dados os seguintes critérios: (1) Orçamento de $37.000 gasto; (2) 96% dos testes do pacote de desenho executados; (3) Ambiente de teste montado e verificado; (4) Nenhum defeito crítico pendente; (5) Especificações do piloto automático revisadas; (6) Componente de imposto passou nos testes unitários. Qual a classificação correta entre critérios de entrada e saída?",
     opts: [
       "Critérios de entrada - 5, 6; Critérios de saída - 1, 2, 3, 4",
       "Critérios de entrada - 3, 5, 6; Critérios de saída - 1, 2, 4",
@@ -1487,7 +1487,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 13 - Dadas as prioridades e dependências técnicas/lógicas, qual dos cronogramas de execução de testes considera melhor esses fatores?",
+    q: "Dadas as prioridades e dependências técnicas/lógicas, qual dos cronogramas de execução de testes considera melhor esses fatores?",
     image: "src/imagens/Cap 05/q13.png",
     opts: [
       "TC4 - TC1 - TC3 - TC5 - TC6 - TC2",
@@ -1498,7 +1498,7 @@ const QUESTIONS_CAP5 = [
     ans: 2
   },
   {
-    q: "Questão 14 - Qual das seguintes afirmações sobre os métodos de estimativa de teste é CORRETA?",
+    q: "Qual das seguintes afirmações sobre os métodos de estimativa de teste é CORRETA?",
     opts: [
       "Com a abordagem baseada em métricas, uma média dos custos de teste registrados de vários projetos passados é usada como orçamento de teste",
       "Com a abordagem baseada em métricas, a estimativa é baseada em medidas de teste do projeto e, portanto, esta estimativa só está disponível após o início dos testes",
@@ -1508,7 +1508,7 @@ const QUESTIONS_CAP5 = [
     ans: 2
   },
   {
-    q: "Questão 15 - Qual dos seguintes define MELHOR o nível de risco?",
+    q: "Qual dos seguintes define MELHOR o nível de risco?",
     opts: [
       "O nível de risco é a soma de todos os perigos potenciais de um sistema multiplicada pela soma de todas as perdas potenciais desse sistema",
       "O nível de risco é calculado somando as probabilidades de todas as situações problemáticas e os danos financeiros que delas resultam",
@@ -1518,7 +1518,7 @@ const QUESTIONS_CAP5 = [
     ans: 3
   },
   {
-    q: "Questão 16 - Qual dos seguintes é o mais provável de ser um exemplo de risco de PRODUTO?",
+    q: "Qual dos seguintes é o mais provável de ser um exemplo de risco de PRODUTO?",
     opts: [
       "Os desenvolvedores podem não ter tempo para corrigir todos os defeitos encontrados pela equipe de teste",
       "As características de segurança esperadas podem não ser suportadas pela arquitetura do sistema",
@@ -1528,7 +1528,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 17 - Qual dos seguintes é o MENOS provável que seja um exemplo de análise de risco do produto CORRETAMENTE influenciando os testes?",
+    q: "Qual dos seguintes é o MENOS provável que seja um exemplo de análise de risco do produto CORRETAMENTE influenciando os testes?",
     opts: [
       "Os testes constataram que a qualidade do módulo de rede é superior ao esperado, portanto não serão realizados testes adicionais nessa área",
       "O tempo necessário para carregar as páginas web é crucial para o sucesso do novo site, por isso foi empregado para este projeto um especialista em testes de desempenho",
@@ -1538,17 +1538,17 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 18 - Você encontrou uma falha no sistema de reserva de trens. Os desenvolvedores precisam de mais detalhes. Você possui: (1) Grau de impacto, (2) ID do item, (3) Detalhes do ambiente, (4) Urgência, (5) Resultados reais, (6) Referência à especificação. Qual conjunto é o mais útil para incluir no relatório de defeitos?",
-    opts: [
-      "2, 3, 4, 5",
-      "3, 5, 6",
-      "1, 2, 6",
-      "1, 4, 5, 6"
-    ],
-    ans: 1
-  },
+  q: "Você está realizando testes de sistema de reserva de trens. Com base nos casos de teste realizados, você notou que o sistema ocasionalmente relata que não há trens disponíveis, embora este não devesse ser realmente o caso. Você forneceu aos desenvolvedores um resumo do defeito e a versão do sistema testado. Eles reconhecem a urgência do defeito e agora estão esperando que você forneça mais detalhes.\n\nAlém das informações já fornecidas, são fornecidas as seguintes informações adicionais:\n\n(1) Grau de impacto (gravidade) do defeito\n(2) Identificação do item de teste\n(3) Detalhes do ambiente de teste\n(4) Urgência/prioridade para consertar\n(5) Resultados reais\n(6) Referência à especificação do caso de teste\n\nQual destas informações é a mais útil para incluir no relatório de defeitos?",
+  opts: [
+    "2, 3, 4, 5",
+    "3, 5, 6",
+    "1, 2, 6",
+    "1, 4, 5, 6"
+  ],
+  ans: 1
+ },
   {
-    q: "Questão 19 - Você encontrou uma falha reprodutível em um banco online onde transferências de fundos desconectam o usuário por 3 a 5 minutos. Qual dos seguintes seria um bom resumo para o relatório de defeitos?",
+    q: "Você encontrou uma falha reprodutível em um banco online onde transferências de fundos desconectam o usuário por 3 a 5 minutos. Qual dos seguintes seria um bom resumo para o relatório de defeitos?",
     opts: [
       "O desempenho é lento e confiável sob carga",
       "Os desenvolvedores introduziram um grande defeito de disponibilidade que irá perturbar seriamente nossos clientes",
@@ -1558,18 +1558,18 @@ const QUESTIONS_CAP5 = [
     ans: 3
   },
   {
-    q: "Questão 20 - Você está testando um aplicativo móvel. Com base na lista de casos de teste, prioridades e dependências apresentadas na imagem, qual é um cronograma de execução de testes que considera tanto as prioridades quanto as dependências?",
-    image: "src/imagens/Cap 05/q20.png",
-    opts: [
-      "01.001, 01.002, 01.003, 01.005, 01.004",
-      "01.001, 01.002, 01.004, 01.005, 01.003",
-      "01.001, 01.002, 01.004, 01.003, 01.005",
-      "01.003, 01.004, 01.002, 01.001, 01.002"
-    ],
-    ans: 2
-  },
+  q: "Você está testando um aplicativo móvel que permite aos usuários encontrar um restaurante próximo, com base no tipo de comida que eles querem comer. Considere a seguinte lista de casos de teste, prioridades (menor número é alta prioridade), e dependências, ilustrada na imagem.\n\nQual dos seguintes é um possível cronograma de execução de testes que considera tanto as prioridades quanto as dependências?",
+  image: "src/imagens/Cap 05/q20.png",
+  opts: [
+    "01.001, 01.002, 01.003, 01.005, 01.004",
+    "01.001, 01.002, 01.004, 01.005, 01.003",
+    "01.001, 01.002, 01.004, 01.003, 01.005",
+    "01.003, 01.004, 01.002, 01.001, 01.002"
+  ],
+  ans: 2
+ },
   {
-    q: "Questão 21 - Qual dos seguintes é uma métrica de teste comum frequentemente usada para monitorar a preparação e execução do teste?",
+    q: "Qual dos seguintes é uma métrica de teste comum frequentemente usada para monitorar a preparação e execução do teste?",
     opts: [
       "Status do caso de teste",
       "Taxas de localização/correção de defeitos",
@@ -1579,7 +1579,7 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 22 - Quais dos dois fatores a seguir podem ser usados para determinar o nível de risco?",
+    q: " Quais dos dois fatores a seguir podem ser usados para determinar o nível de risco?",
     opts: [
       "Probabilidade e impacto",
       "Dinâmico e reativo",
@@ -1589,7 +1589,7 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 23 - Em um projeto bancário, um processo rigoroso de correção de defeitos é usado. Defeitos confirmados como corrigidos no ambiente de desenvolvimento são reprovados nos testes no ambiente de teste. Qual aspecto é a parte mais provável do processo a ser verificada a seguir?",
+    q: "Em um projeto bancário, um processo rigoroso de correção de defeitos é usado. Defeitos confirmados como corrigidos no ambiente de desenvolvimento são reprovados nos testes no ambiente de teste. Qual aspecto é a parte mais provável do processo a ser verificada a seguir?",
     opts: [
       "Gerenciamento da configuração, que pode não estar mantendo a integridade do produto",
       "A atividade dos testadores, que podem estar confusos sobre o que testar",
@@ -1599,7 +1599,7 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 24 - Para estimar o esforço de uma nova aplicação, você consulta a equipe (especialistas) e depois verifica com médias do setor (métricas). Qual declaração descreve com exatidão sua abordagem?",
+    q: "Para estimar o esforço de uma nova aplicação, você consulta a equipe (especialistas) e depois verifica com médias do setor (métricas). Qual declaração descreve com exatidão sua abordagem?",
     opts: [
       "Uma abordagem simultânea baseada em especialistas e em métricas",
       "Primeiramente o planning poker, verificado por velocidade",
@@ -1609,7 +1609,7 @@ const QUESTIONS_CAP5 = [
     ans: 2
   },
   {
-    q: "Questão 25 - Durante um projeto Ágil, você encontra uma discrepância entre a interpretação do desenvolvedor e a do Product Owner sobre um critério de aceite. Qual benefício de independência de teste isso exemplifica?",
+    q: "Durante um projeto Ágil, você encontra uma discrepância entre a interpretação do desenvolvedor e a do Product Owner sobre um critério de aceite. Qual benefício de independência de teste isso exemplifica?",
     opts: [
       "Assumir a responsabilidade primária pela qualidade",
       "Desafiar as suposições das partes interessadas",
@@ -1619,7 +1619,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 26 - Qual o lugar apropriado para documentar o processo de análise de risco do produto em um plano de teste Ágil?",
+    q: "Qual o lugar apropriado para documentar o processo de análise de risco do produto em um plano de teste Ágil?",
     opts: [
       "Gerenciamento da configuração do objeto de teste",
       "Abordagem de testes",
@@ -1629,7 +1629,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 27 - Classifique os resultados indesejáveis em riscos de projeto e de produto: (a) Totais incorretos; (b) Mudança nos critérios de aceite; (c) Usuários acham o teclado difícil; (d) Resposta lenta à entrada; (e) Testadores impedidos de relatar resultados.",
+    q: "Classifique os resultados indesejáveis em riscos de projeto e de produto: (a) Totais incorretos; (b) Mudança nos critérios de aceite; (c) Usuários acham o teclado difícil; (d) Resposta lenta à entrada; (e) Testadores impedidos de relatar resultados.",
     opts: [
       "Riscos do produto: A, C, D; Riscos do projeto: B, E",
       "Riscos do produto: A, C; Riscos do projeto: B, D, E",
@@ -1639,7 +1639,7 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 28 - Como os testadores agregam valor aos planejamentos de iteração e lançamento em projetos Ágeis?",
+    q: "Como os testadores agregam valor aos planejamentos de iteração e lançamento em projetos Ágeis?",
     opts: [
       "Garantem o lançamento de alta qualidade por meio de projeto antecipado.",
       "Participam da identificação e avaliação de riscos das histórias de usuários.",
@@ -1649,7 +1649,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 29 - Quais das opções a seguir são critérios de saída para testar um sistema?",
+    q: "Quais das opções a seguir são critérios de saída para testar um sistema?",
     opts: [
       "Prontidão do ambiente de teste e capacidade do testador de fazer login.",
       "Testes de regressão automatizados e densidade de defeitos estimada atingida.",
@@ -1659,28 +1659,28 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 30 - Usando a estimativa de três pontos (Otimista=2, Provável=11, Pessimista=14), qual é a estimativa final usando a fórmula PERT?",
-    opts: [
-      "9 homens/hora",
-      "10 homens/hora",
-      "14 homens/hora",
-      "11 homens/hora"
-    ],
-    ans: 1
+  q: "Sua equipe usa a técnica de estimativa de três pontos para estimar o esforço de teste de um novo recurso de alto risco. Foram feitas as seguintes estimativas:\n\nEstimativa mais otimista: 2 homens/hora\nEstimativa mais provável: 11 homens/hora\nEstimativa mais pessimista: 14 homens/hora\n\nQual é a estimativa final?",
+  opts: [
+    "9 homens/hora",
+    "10 homens/hora",
+    "14 homens/hora",
+    "11 homens/hora"
+  ],
+  ans: 1
   },
   {
-    q: "Questão 31 - Você está testando um aplicativo móvel (restaurante). Com base na lista de casos de teste, prioridades e dependências da imagem, qual dos casos de teste deve ser o terceiro a ser executado?",
-    image: "src/imagens/Cap 05/q31.png",
-    opts: [
-      "TC 001",
-      "TC 002",
-      "TC 003",
-      "TC 005"
-    ],
-    ans: 2 // Corresponde à alternativa 'c' (TC 003)
-  },
+  q: "Você está testando um aplicativo móvel que permite que os usuários encontrem um restaurante próximo com base no tipo de comida que desejam comer. Considere a seguinte lista de casos de teste, prioridades (ou seja, um número menor significa uma prioridade maior) e dependências ilustrada na imagem.\n\nQual dos seguintes casos de teste deve ser o terceiro a ser executado?",
+  image: "src/imagens/Cap 05/q31.png",
+  opts: [
+    "TC 001",
+    "TC 002",
+    "TC 003",
+    "TC 005"
+  ],
+  ans: 2
+ },
  {
-  q: "Questão 32 - Mapeie as categorias de teste:\n(1) Usabilidade, (2) Componentes, (3) Funcional, (4) Confiabilidade\nNos quadrantes de teste ágil:\n(A) Q1-Tecnologia/Apoio, (B) Q2-Negócio/Apoio, (C) Q3-Negócio/Crítica, (D) Q4-Tecnologia/Crítica.",
+  q: "Considere as seguintes categorias de teste (1-4) e os quadrantes de teste ágil (A-D):\n\n(1) Teste de usabilidade\t(A) Q1: voltado para a tecnologia, apoiando o desenvolvimento\n(2) Teste de componentes\t(B) Q2: voltado para o negócio, apoiando o desenvolvimento\n(3) Teste funcional\t(C) Q3: voltado para o negócio, crítica do produto\n(4) Teste de confiabilidade\t(D) Q4: voltado para a tecnologia, crítica do produto\n\nComo as seguintes categorias de teste são mapeadas nos quadrantes de teste ágil?",
   opts: [
     "1C, 2A, 3B, 4D",
     "1D, 2B, 3C, 4A",
@@ -1688,55 +1688,65 @@ const QUESTIONS_CAP5 = [
     "1D, 2A, 3C, 4B"
   ],
   ans: 0
+ },
+ {
+  q: "Durante uma análise de risco, o seguinte risco foi identificado e avaliado:\n\n**Risco:** o tempo de resposta é muito longo para gerar um relatório\n**Probabilidade do risco:** média\n**Impacto do risco:** alto\n**Resposta ao risco:** (1) uma equipe de teste independente realiza testes de performance durante o teste do sistema; (2) uma amostra selecionada de usuários finais realiza testes de aceite alfa e beta antes do lançamento.\n\nQue medida é proposta para ser tomada em resposta a esse risco analisado?",
+  opts: [
+    "Aceite de riscos",
+    "Plano de contingência",
+    "Transferência de risco",
+    "Mitigação de riscos"
+  ],
+  ans: 3
 },
   {
-    q: "Questão 33 - Em uma análise de risco (Risco: tempo de resposta muito longo; Probabilidade: média; Impacto: alto), as respostas foram: (1) teste de performance por equipe independente; (2) testes alfa e beta por usuários finais. Que medida é essa?",
-    opts: ["Aceite de riscos", "Plano de contingência", "Transferência de risco", "Mitigação de riscos"],
-    ans: 3
-  },
-  {
-    q: "Questão 34 - Qual ferramenta ágil mostra a quantidade de trabalho concluída e a quantidade total restante para uma iteração?",
+    q: "Qual ferramenta ágil mostra a quantidade de trabalho concluída e a quantidade total restante para uma iteração?",
     opts: ["Gráfico de Burndown", "Relatório de defeitos", "Relatório de conclusão do teste", "Critérios de aceite"],
     ans: 0
   },
   {
-    q: "Questão 35 - Ao atualizar um script de teste automatizado para um novo requisito, qual processo indica que você deve criar uma nova versão no repositório?",
+    q: "Ao atualizar um script de teste automatizado para um novo requisito, qual processo indica que você deve criar uma nova versão no repositório?",
     opts: ["Gerenciamento de Rastreabilidade", "Engenharia de Requisitos", "Gerenciamento de Configuração", "Teste de Manutenção"],
     ans: 2
   },
   {
-    q: "Questão 36 - Um relatório de defeito foi rejeitado por não ser reproduzível. Faltavam informações sobre o campo Nome com entrada '$ä' e contas de administrador. Que informações essenciais faltaram?",
+    q: "Um relatório de defeito foi rejeitado por não ser reproduzível. Faltavam informações sobre o campo Nome com entrada '$ä' e contas de administrador. Que informações essenciais faltaram?",
     opts: ["Resultado esperado e real", "Referências e status do defeito", "Ambiente de teste e item de teste", "Prioridade e gravidade"],
     ans: 2
   },
   {
-    q: "Questão 37 - No pipeline DevOps (Desenvolvimento -> Controle de Versão/Merge -> Testes de Componente), qual é o MELHOR critério de entrada para o passo de subir/mesclar o código?",
+    q: "No pipeline DevOps (Desenvolvimento -> Controle de Versão/Merge -> Testes de Componente), qual é o MELHOR critério de entrada para o passo de subir/mesclar o código?",
     opts: ["Cobertura de declaração de 80%", "Controle de versão não relata conflitos", "Testes de componente prontos", "Análise estática não retorna avisos de alta gravidade"],
     ans: 3
   },
-  {
-    q: "Questão 38 - Com dados históricos (Esforço Dev / Esforço Teste: 400k/40k, 500k/50k, 600k/60k, 700k/70k), qual a estimativa de teste para um projeto de 800k de esforço de desenvolvimento?",
-    image: "src/imagens/Cap 05/q38.png",
-    opts: ["$82,500", "$80,000", "$81,250", "$40,000"],
-    ans: 1
-  },
  {
-    q: "Questão 39 - Você está testando uma aplicação web (BUSCAR, VER detalhes, ADICIONAR ao carrinho, PEDIDO). Casos de teste:\n- TC1: BUSCAR produto A (Prioridade: média)\n- TC2: VER detalhes do produto A (Prioridade: baixa)\n- TC3: ADICIONAR produto B ao carrinho (Prioridade: média)\n- TC4: ADICIONAR produto C ao carrinho (Prioridade: alta)\n- TC5: fazer um PEDIDO (Prioridade: alta)\n\nDependências lógicas:\n- Busca -> Visualização\n- Visualização -> Adição\n- Adição -> Pedido\n\nQual caso de teste deve ser executado como o quarto?",
-    opts: [
-      "TC4",
-      "TC2",
-      "TC1",
-      "TC3"
-    ],
-    ans: 3 // A resposta correta é TC3 (índice 3 no array)
-  },
+  q: "Para estimar o esforço de teste para o novo projeto usando a estimativa baseada em proporções, precisamos calcular a proporção média entre o esforço de teste e o esforço de desenvolvimento, utilizando dados médios de ambos os esforços de desenvolvimento e teste de quatro projetos históricos similares ao novo projeto. A tabela mostra esses dados históricos ilustrados na imagem.\n\nO esforço de desenvolvimento estimado para o novo projeto é de $800.000. Qual é a sua estimativa para o esforço de teste neste projeto?",
+  image: "src/imagens/Cap 05/q38.png",
+  opts: [
+    "$82,500",
+    "$80,000",
+    "$81,250",
+    "$40,000"
+  ],
+  ans: 1
+},
+{
+  q: "Você está testando uma aplicação web que permite aos usuários BUSCAR por produtos, VER detalhes do produto, ADICIONAR produtos a um carrinho de compras e fazer um PEDIDO. Você preparou os seguintes cinco casos de teste, que deseja executar de acordo com suas prioridades:\n\nTC1: BUSCAR produto A\tPrioridade: média\nTC2: VER detalhes do produto A\tPrioridade: baixa\nTC3: ADICIONAR produto B ao carrinho de compras\tPrioridade: média\nTC4: ADICIONAR produto C ao carrinho de compras\tPrioridade: alta\nTC5: fazer um PEDIDO\tPrioridade: alta\n\nVocê também identificou as seguintes dependências lógicas entre os casos de teste:\n\n- A funcionalidade de BUSCA deve ser testada antes que a funcionalidade de VISUALIZAÇÃO possa ser testada, pois os detalhes do produto dependem da funcionalidade de busca.\n- A funcionalidade de VISUALIZAÇÃO deve ser testada antes da funcionalidade de ADIÇÃO, pois adicionar produtos depende da disponibilidade de detalhes precisos do produto.\n- A funcionalidade de ADIÇÃO deve ser testada antes da funcionalidade de PEDIDO, pois fazer um pedido depende da disponibilidade de informações precisas do carrinho de compras.\n\nQual caso de teste deve ser executado como o quarto?",
+  opts: [
+    "TC4",
+    "TC2",
+    "TC1",
+    "TC3"
+  ],
+  ans: 3
+},
   {
-    q: "Questão 40 - Segundo o modelo de quadrantes de teste, qual opção se enquadra no Q1 (Orientado à tecnologia / Suporte à equipe)?",
+    q: "Segundo o modelo de quadrantes de teste, qual opção se enquadra no Q1 (Orientado à tecnologia / Suporte à equipe)?",
     opts: ["Teste de usabilidade", "Teste funcional", "Teste de integração de componentes", "Teste de aceitação do usuário"],
     ans: 2
   },
   {
-    q: "Questão 41 - Relacione os riscos (1. Loop ineficaz; 2. Mudança de preferência do consumidor; 3. Inundação; 4. Relatórios imprecisos para idosos) com suas respectivas atividades de mitigação (A. Aceitação; B. Teste de desempenho; C. Análise de valor limite; D. Transferência de risco).",
+    q: "Relacione os riscos (1. Loop ineficaz; 2. Mudança de preferência do consumidor; 3. Inundação; 4. Relatórios imprecisos para idosos) com suas respectivas atividades de mitigação (A. Aceitação; B. Teste de desempenho; C. Análise de valor limite; D. Transferência de risco).",
     opts: [
       "1B, 2A, 3D, 4C",
       "1C, 2D, 3A, 4B",
@@ -1746,7 +1756,7 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 42 - Qual das seguintes opções é considerada uma métrica de qualidade do produto?",
+    q: "Qual das seguintes opções é considerada uma métrica de qualidade do produto?",
     opts: [
       "Cobertura de requisitos",
       "Percentual de detecção de defeitos",
@@ -1756,7 +1766,7 @@ const QUESTIONS_CAP5 = [
     ans: 3
   },
   {
-    q: "Questão 43 - Em uma equipe Ágil com cultura DevOps (América do Norte/Europa), qual das seguintes é a maneira MENOS eficaz de comunicar o progresso do teste ao cliente?",
+    q: "Em uma equipe Ágil com cultura DevOps (América do Norte/Europa), qual das seguintes é a maneira MENOS eficaz de comunicar o progresso do teste ao cliente?",
     opts: [
       "Painéis de controle",
       "Cara-a-cara",
@@ -1766,7 +1776,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 44 - Qual das opções descreve MELHOR como o gerenciamento de configuração (CM) apoia os testes?",
+    q: "Qual das opções descreve MELHOR como o gerenciamento de configuração (CM) apoia os testes?",
     opts: [
       "Tendo um registro das entradas, a ferramenta de CM executa os testes e calcula a cobertura",
       "Tendo o número da versão do caso de teste, a ferramenta de CM gera dados de teste automaticamente",
@@ -1776,18 +1786,18 @@ const QUESTIONS_CAP5 = [
     ans: 3
   },
   {
-    q: "Questão 45 - Ao testar uma função de classificação, o registro mostra que o sistema falha ao processar conjuntos com números repetidos (TC3, TC4, TC5). Qual a MELHOR descrição da falha para um relatório de defeito?",
-    image: "src/imagens/Cap 05/q45.png",
-    opts: [
-      "TC3, TC4 e TC5 possuem defeitos (dados de entrada duplicados) e devem ser corrigidos.",
-      "O sistema falha ao classificar números negativos. Referência: TC4, TC5.",
-      "O sistema parece ignorar duplicatas durante a classificação. Referência: TC3, TC4, TC5.",
-      "O sistema falha ao classificar várias sequências de números. Referência: TC3, TC4, TC5."
-    ],
-    ans: 2
+  q: "Você está testando uma função de classificação que recebe um conjunto de números como entrada e retorna o mesmo conjunto de números classificados em ordem crescente. O registro da execução do teste é ilustrado na imagem.\n\nQual das seguintes fornece a MELHOR descrição da falha que pode ser usada em um relatório de defeitos?",
+  image: "src/imagens/Cap 05/q45.png",
+  opts: [
+    "TC3, TC4 e TC5 possuem defeitos (dados de entrada duplicados) e devem ser corrigidos.",
+    "O sistema falha ao classificar números negativos. Referência: TC4, TC5.",
+    "O sistema parece ignorar duplicatas durante a classificação. Referência: TC3, TC4, TC5.",
+    "O sistema falha ao classificar várias sequências de números. Referência: TC3, TC4, TC5."
+  ],
+  ans: 2
   },
   {
-    q: "Questão 46 - Qual dos seguintes NÃO é um propósito de um plano de teste?",
+    q: "Qual dos seguintes NÃO é um propósito de um plano de teste?",
     opts: [
       "Definir dados de teste e resultados esperados para testes de componente e integração.",
       "Definir como critério de saída que 'cobertura de 100% de instruções e ramificação deve ser alcançada'.",
@@ -1797,7 +1807,7 @@ const QUESTIONS_CAP5 = [
     ans: 0
   },
   {
-    q: "Questão 47 - No início de cada iteração, a equipe estima a quantidade de trabalho (em dias de trabalho) que precisará completar durante a iteração.  Seja E a quantidade estimada de trabalho para a iteração n, e seja A a quantidade real de trabalho feita na iteração n. A partir da terceira iteração, a equipe usa o seguinte modelo de estimação baseado em extrapolação:, O gráfico mostra a quantidade estimada e real de trabalho para as quatro primeiras iterações. Qual é a quantidade estimada de trabalho para a iteração #5?",
+    q: "No início de cada iteração, a equipe estima a quantidade de trabalho (em dias de trabalho) que precisará completar durante a iteração.  Seja E a quantidade estimada de trabalho para a iteração n, e seja A a quantidade real de trabalho feita na iteração n. A partir da terceira iteração, a equipe usa o seguinte modelo de estimação baseado em extrapolação:, O gráfico mostra a quantidade estimada e real de trabalho para as quatro primeiras iterações. Qual é a quantidade estimada de trabalho para a iteração #5?",
     image: ["src/imagens/Cap 05/q47.png", "src/imagens/Cap 05/q47a.png"],
     opts: [
       "10,5 dias de trabalho",
@@ -1807,14 +1817,19 @@ const QUESTIONS_CAP5 = [
     ],
     ans: 2
   },
+{
+  q: "Você está preparando um cronograma de execução de testes para executar sete casos de teste TC 1 a TC 7.\n\nA figura a seguir inclui as prioridades desses casos de teste (1 = prioridade mais alta, 3 = prioridade mais baixa).\n\nA figura também mostra as dependências entre os casos de teste usando setas. Por exemplo, a seta de TC 4 para TC 5 significa que TC 5 só pode ser executado se TC 4 foi previamente executado.\n\nQual caso de teste deve ser executado em sexto lugar?",
+  image: "src/imagens/Cap 05/q48.png",
+  opts: [
+    "TC 3",
+    "TC 5",
+    "TC 6",
+    "TC 2"
+  ],
+  ans: 0
+},
   {
-    q: "Questão 48 - Com base nas prioridades (1=Alta, 3=Baixa) e dependências da imagem (setas indicando execução prévia), qual caso de teste deve ser executado em sexto lugar?",
-    image: "src/imagens/Cap 05/q48.png",
-    opts: ["TC 3", "TC 5", "TC 6", "TC 2"],
-    ans: 0
-  },
-  {
-    q: "Questão 49 - O que o modelo da pirâmide de testes mostra?",
+    q: "O que o modelo da pirâmide de testes mostra?",
     opts: [
       "Que os testes podem ter diferentes prioridades",
       "Que os testes podem ter granularidades diferentes",
@@ -1824,7 +1839,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 50 - Qual é a relação correta entre os quadrantes de teste, os níveis de teste e os tipos de teste?",
+    q: "Qual é a relação correta entre os quadrantes de teste, os níveis de teste e os tipos de teste?",
     opts: [
       "Os quadrantes representam combinações específicas de níveis e tipos de teste no ciclo de vida.",
       "Os quadrantes descrevem o grau de granularidade dos tipos de teste em cada nível.",
@@ -1834,7 +1849,7 @@ const QUESTIONS_CAP5 = [
     ans: 3
   },
   {
-    q: "Questão 51 - Qual das alternativas é um exemplo de como a análise de risco do produto influencia a minuciosidade e o escopo dos testes?",
+    q: "Qual das alternativas é um exemplo de como a análise de risco do produto influencia a minuciosidade e o escopo dos testes?",
     opts: [
       "O monitoramento contínuo permite identificar riscos emergentes o mais cedo possível.",
       "A identificação de riscos permite implementar mitigação e reduzir o nível de risco.",
@@ -1844,7 +1859,7 @@ const QUESTIONS_CAP5 = [
     ans: 2
   },
   {
-    q: "Questão 52 - Qual das atividades do processo de teste faz o MAIOR uso de relatórios de progresso de teste?",
+    q: "Qual das atividades do processo de teste faz o MAIOR uso de relatórios de progresso de teste?",
     opts: [
       "Design de teste",
       "Conclusão do teste",
@@ -1854,7 +1869,7 @@ const QUESTIONS_CAP5 = [
     ans: 1
   },
   {
-    q: "Questão 53 - Qual das opções NÃO é um exemplo de como o gerenciamento de configuração (CM) suporta o teste?",
+    q: "Qual das opções NÃO é um exemplo de como o gerenciamento de configuração (CM) suporta o teste?",
     opts: [
       "Todos os commits no repositório são identificados de forma única e controlados por versão",
       "Todas as mudanças nos elementos do ambiente de teste são rastreadas",
@@ -1864,7 +1879,7 @@ const QUESTIONS_CAP5 = [
     ans: 3
   },
   {
-    q: "Questão 54 - Em um relatório de defeito com Título, Passos, Resultados e Severidade, qual informação crucial está faltando para permitir a reprodução?",
+    q: "Em um relatório de defeito com Título, Passos, Resultados e Severidade, qual informação crucial está faltando para permitir a reprodução?",
     opts: [
       "Nome do testador e data do relatório",
       "Elementos do ambiente de teste e seus números de versão",
@@ -1881,62 +1896,62 @@ const QUESTIONS_CAP5 = [
 // ============================================================
 const QUESTIONS_CAP6 = [
 {
-    q: "Questão 1 - Qual dos seguintes é o MAIS provável que seja um benefício das ferramentas de execução de testes?",
+    q: "Qual dos seguintes é o MAIS provável que seja um benefício das ferramentas de execução de testes?",
     opts: ["É fácil projetar testes para testes de segurança", "É fácil criar testes de regressão", "É fácil manter o controle de versão dos ativos de teste", "É fácil executar testes de regressão"],
     ans: 3
   },
   {
-    q: "Questão 2 - Qual das seguintes ferramentas de teste é mais adequada para desenvolvedores do que para testadores?",
+    q: "Qual das seguintes ferramentas de teste é mais adequada para desenvolvedores do que para testadores?",
     opts: ["Ferramentas de teste de desempenho", "Ferramentas de gerenciamento de defeitos", "Ferramentas de gerenciamento de requisitos", "Ferramentas de gerenciamento da configuração"],
     ans: 1
   },
   {
-    q: "Questão 3 - Dadas as seguintes atividades de teste e ferramentas:\n(1) Medição de desempenho e análise dinâmica\n(2) Execução de testes e registro\n(3) Gerenciamento de testes e tesouras\n(4) Projeto do teste\n\n(A) Ferramentas de cobertura de necessidades\n(B) Ferramentas de análise dinâmica\n(C) Ferramentas de preparação de dados de teste\n(D) Ferramentas de gerenciamento de defeitos\n\nQual a melhor combinação?",
+    q: "Dadas as seguintes atividades de teste e ferramentas:\n(1) Medição de desempenho e análise dinâmica\n(2) Execução de testes e registro\n(3) Gerenciamento de testes e tesouras\n(4) Projeto do teste\n\n(A) Ferramentas de cobertura de necessidades\n(B) Ferramentas de análise dinâmica\n(C) Ferramentas de preparação de dados de teste\n(D) Ferramentas de gerenciamento de defeitos\n\nQual a melhor combinação?",
     opts: ["1-B, 2-A, 3-C, 4-D", "1-A, 2-B, 3-D, 4-C", "1-B, 2-A, 3-D, 4-C", "1-B, 2-C, 3-D, 4-A"],
     ans: 2
   },
   {
-    q: "Questão 4 - Qual dos seguintes é o mais provável de ser usado como motivo para usar um projeto piloto para introduzir uma ferramenta em uma organização?",
+    q: "Qual dos seguintes é o mais provável de ser usado como motivo para usar um projeto piloto para introduzir uma ferramenta em uma organização?",
     opts: ["Avaliar como a ferramenta se ajusta aos processos e práticas existentes e determinar o que precisaria mudar", "Avaliar se a ferramenta fornece a funcionalidade necessária e não duplica ferramentas existentes", "Avaliar habilidades de automação e necessidades de treinamento/coaching", "Avaliar o fornecedor da ferramenta em termos de apoio e treinamento"],
     ans: 0
   },
   {
-    q: "Questão 5 - Você concluiu um projeto piloto para uma ferramenta de teste de regressão. Você adaptou o processo, padronizou a abordagem e produtos de trabalho. Qual objetivo é um projeto piloto típico que ainda deve ser realizado?",
+    q: "Você concluiu um projeto piloto para uma ferramenta de teste de regressão. Você adaptou o processo, padronizou a abordagem e produtos de trabalho. Qual objetivo é um projeto piloto típico que ainda deve ser realizado?",
     opts: ["Saiba mais detalhes sobre a ferramenta", "Veja como a ferramenta se ajustaria aos processos e práticas existentes", "Avaliar se os benefícios serão alcançados a um custo razoável", "Decidir sobre formas padrão de usar, gerenciar, armazenar e manter a ferramenta"],
     ans: 2
   },
   {
-    q: "Questão 6 - Qual das seguintes ferramentas é mais útil para relatar as métricas de teste?",
+    q: "Qual das seguintes ferramentas é mais útil para relatar as métricas de teste?",
     opts: ["Ferramenta de análise estática", "Ferramenta de gerenciamento de testes", "Ferramentas de teste baseadas em modelos", "Ferramenta de cobertura"],
     ans: 1
   },
   {
-    q: "Questão 7 - Qual atividade de teste é suportada por uma ferramenta de preparação de dados?",
+    q: "Qual atividade de teste é suportada por uma ferramenta de preparação de dados?",
     opts: ["Análise e projeto de testes", "Monitoramento e controle de testes", "Implementação e execução de testes", "Conclusão do teste"],
     ans: 2
   },
   {
-    q: "Questão 8 - Qual item identifica corretamente um risco potencial de realizar a automação de testes?",
+    q: "Qual item identifica corretamente um risco potencial de realizar a automação de testes?",
     opts: ["Esforços suficientes para manter o material de teste podem não ser alocados adequadamente", "Ele pode introduzir regressões desconhecidas na produção", "As ferramentas de teste e o material de teste associado podem não ser suficientemente confiáveis", "Pode reduzir o tempo alocado para testes manuais"],
     ans: 0
   },
   {
-    q: "Questão 9 - Dada às seguintes descrições:\n1. Suporte ao rastreamento de fluxo de trabalho\n2. Facilitar a comunicação\n3. Máquinas virtuais\n4. Suporte a revisões\n\nE as categorias:\nA. Ferramentas de teste estático\nB. Ferramentas que suportam escalabilidade e padronização de implantação\nC. Ferramentas DevOps\nD. Ferramentas de colaboração\n\nQual a melhor combinação?",
+    q: "Dada às seguintes descrições:\n1. Suporte ao rastreamento de fluxo de trabalho\n2. Facilitar a comunicação\n3. Máquinas virtuais\n4. Suporte a revisões\n\nE as categorias:\nA. Ferramentas de teste estático\nB. Ferramentas que suportam escalabilidade e padronização de implantação\nC. Ferramentas DevOps\nD. Ferramentas de colaboração\n\nQual a melhor combinação?",
     opts: ["1D, 2C, 3A, 4B", "1A, 2B, 3C, 4D", "1B, 2D, 3C, 4A", "1C, 2D, 3B, 4A"],
     ans: 3
   },
   {
-    q: "Questão 10 - Qual dos seguintes é MAIS provável de ser um benefício da automação de testes?",
+    q: "Qual dos seguintes é MAIS provável de ser um benefício da automação de testes?",
     opts: ["Compartilha a responsabilidade pelos testes com o fornecedor da ferramenta", "Fornece medidas de cobertura que são muito complicadas para os humanos derivarem", "Remove a necessidade de pensamento crítico ao analisar os resultados dos testes", "Gera casos de teste a partir de uma análise do código do programa"],
     ans: 1
   },
   {
-    q: "Questão 11 - Ferramentas de qual das seguintes categorias ajudam na organização de casos de teste, defeitos detectados e gerenciamento de configuração?",
+    q: "Ferramentas de qual das seguintes categorias ajudam na organização de casos de teste, defeitos detectados e gerenciamento de configuração?",
     opts: ["Ferramentas de execução de teste e cobertura", "Ferramentas de design e implementação de teste", "Ferramentas de gerenciamento de defeitos", "Ferramentas de gerenciamento de teste"],
     ans: 3
   },
   {
-    q: "Questão 12 - Qual dos seguintes é MAIS provável de ser um benefício da automação de testes?",
+    q: "Qual dos seguintes é MAIS provável de ser um benefício da automação de testes?",
     opts: ["A capacidade de gerar casos de teste sem acesso à base de teste", "O aumento da cobertura por meio de avaliação mais objetiva", "O aumento do tempo de execução do teste com maior capacidade de processamento", "A prevenção de erros humanos por meio de maior consistência e repetibilidade"],
     ans: 3
   }
