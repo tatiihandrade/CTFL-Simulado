@@ -43,7 +43,7 @@ Simulado interativo para estudo e preparação para a certificação **ISTQB CTF
 
 O projeto está hospedado via **GitHub Pages**:
 
-🔗 **[seu-usuario.github.io/nome-do-repositorio](https://seu-usuario.github.io/nome-do-repositorio)**
+🔗 **https://tatiihandrade.github.io/CTFL-Simulado/**
 
 > Substitua o link acima pelo seu após ativar o GitHub Pages.
 
