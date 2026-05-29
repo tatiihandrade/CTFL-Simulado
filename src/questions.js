@@ -1690,7 +1690,7 @@ const QUESTIONS_CAP5 = [
   ans: 0
  },
  {
-  q: "Durante uma análise de risco, o seguinte risco foi identificado e avaliado:\n\n**Risco:** o tempo de resposta é muito longo para gerar um relatório\n**Probabilidade do risco:** média\n**Impacto do risco:** alto\n**Resposta ao risco:** (1) uma equipe de teste independente realiza testes de performance durante o teste do sistema; (2) uma amostra selecionada de usuários finais realiza testes de aceite alfa e beta antes do lançamento.\n\nQue medida é proposta para ser tomada em resposta a esse risco analisado?",
+  q: "Durante uma análise de risco, o seguinte risco foi identificado e avaliado:\n\nRisco: o tempo de resposta é muito longo para gerar um relatório\nProbabilidade do risco: média\nImpacto do risco: alto\nResposta ao risco: (1) uma equipe de teste independente realiza testes de performance durante o teste do sistema; (2) uma amostra selecionada de usuários finais realiza testes de aceite alfa e beta antes do lançamento.\n\nQue medida é proposta para ser tomada em resposta a esse risco analisado?",
   opts: [
     "Aceite de riscos",
     "Plano de contingência",
@@ -1958,6 +1958,13 @@ const QUESTIONS_CAP6 = [
 
 ];
 
+
+
+
+
+// ============================================================
+// MAPA DE MÓDULOS — usado pelo script.js
+// ============================================================
 const QUESTIONS_BY_MODULE = {
   cap1: QUESTIONS_CAP1,
   cap2: QUESTIONS_CAP2,

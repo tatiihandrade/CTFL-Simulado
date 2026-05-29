@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/style.css">
 
     <script src="src/questions.js"></script>
+    <script src="src/simulados.js"></script>
     <script src="src/script.js" defer></script>
 </head>
 
@@ -23,33 +24,44 @@
 
         <div class="home-logo">CTFL 4.0 — Simulado</div>
 
-        <h1 class="home-title">
-            Certificação<br>CTFL 4.0
-        </h1>
+        <h1 class="home-title">Certificação<br>CTFL 4.0</h1>
 
-        <p class="home-sub">
-            Escolha um módulo ou faça uma prova completa
-        </p>
+        <p class="home-sub">Escolha um módulo ou faça uma prova completa</p>
 
-        <!-- PROVA OFICIAL -->
-        <div style="display:flex;justify-content:center;margin-bottom:24px;">
-
+        <div style="display:flex;justify-content:center;gap:12px;margin-bottom:24px;flex-wrap:wrap;">
             <button class="btn btn-primary" id="mode-prova">
-                <div>📝 Prova Oficial</div>
-                <small>40 questões • 60 min</small>
+                <div>📝 Simulado Geral</div>
+                <small>(40 questões)</small>
             </button>
-
+            <button class="btn btn-provas-oficiais" id="mode-provas-oficiais">
+                <div>🏆 Provas Oficiais ISTQB</div>
+                <small>Simulados A, B, C e D</small>
+            </button>
         </div>
 
         <!-- HISTÓRICO -->
         <div id="historico-box"></div>
 
         <!-- MÓDULOS -->
-        <h3 class="section-title">
-            📚 Estudo por Capítulo
-        </h3>
+        <h3 class="section-title">📚 Estudo por Capítulo</h3>
 
         <div class="modules-grid" id="modules-grid"></div>
+
+    </div>
+
+    <!-- SELEÇÃO DE PROVAS OFICIAIS -->
+    <div id="screen-provas" class="screen">
+
+        <div class="review-hdr">
+            <button class="btn" id="btn-back-provas">← Voltar</button>
+            <h2>🏆 Provas Oficiais ISTQB</h2>
+        </div>
+
+        <p style="color:var(--muted2);font-size:14px;margin-bottom:1.5rem;">
+            Simulados baseados em provas oficiais do ISTQB. Cada prova contém 40 questões com 60 minutos.
+        </p>
+
+        <div class="provas-grid" id="provas-grid"></div>
 
     </div>
 
@@ -57,24 +69,10 @@
     <div id="screen-quiz" class="screen">
 
         <div class="quiz-topbar">
-
-            <button class="btn btn-voltar" id="btn-voltar-home">
-                ← Voltar
-            </button>
-
-            <div id="timer"
-                 style="font-family:var(--mono);font-size:18px;color:#F59E0B;">
-                —
-            </div>
-
-            <span class="quiz-badge" id="quiz-badge">
-                CTFL 4.0
-            </span>
-
-            <span class="quiz-counter" id="quiz-counter">
-                0 / 0
-            </span>
-
+            <button class="btn btn-voltar" id="btn-voltar-home">← Voltar</button>
+            <div id="timer" style="font-family:var(--mono);font-size:18px;color:#F59E0B;">—</div>
+            <span class="quiz-badge" id="quiz-badge">CTFL 4.0</span>
+            <span class="quiz-counter" id="quiz-counter">0 / 0</span>
         </div>
 
         <div class="progress-track">
@@ -82,123 +80,76 @@
         </div>
 
         <div class="stats-strip">
-
             <div class="stat-box">
                 <span class="stat-val" id="stat-q">1</span>
                 <span class="stat-lbl">QUESTÃO</span>
             </div>
-
             <div class="stat-box">
                 <span class="stat-val green" id="stat-c">0</span>
                 <span class="stat-lbl">ACERTOS</span>
             </div>
-
             <div class="stat-box">
                 <span class="stat-val red" id="stat-w">0</span>
                 <span class="stat-lbl">ERROS</span>
             </div>
-
             <div class="stat-box">
                 <span class="stat-val" id="stat-p">—</span>
                 <span class="stat-lbl">APROVEIT.</span>
             </div>
-
         </div>
 
         <div class="q-card" id="q-card">
-
             <div class="q-meta">
                 <span class="q-meta-dot"></span>
                 <span id="q-meta-txt"></span>
             </div>
-
             <p class="q-text" id="q-text"></p>
-
             <div class="options-list" id="options-list"></div>
-
             <div class="feedback-box" id="feedback"></div>
-
         </div>
 
         <div class="quiz-actions">
-
-            <button class="btn" id="btn-skip">
-                Pular
-            </button>
-
-            <button class="btn btn-primary" id="btn-confirm" disabled>
-                Confirmar
-            </button>
-
+            <button class="btn" id="btn-skip">Pular</button>
+            <button class="btn btn-primary" id="btn-confirm" disabled>Confirmar</button>
         </div>
 
     </div>
 
     <!-- RESULTADO -->
     <div id="screen-result" class="screen">
-
         <div class="result-wrap">
-
             <div class="result-pct" id="result-pct">—</div>
-
             <div class="result-sub" id="result-sub"></div>
-
             <div class="result-verdict" id="result-verdict"></div>
-
             <div class="result-grid">
-
                 <div class="result-stat">
                     <div class="result-stat-val rs-green" id="rs-c">0</div>
                     <div class="result-stat-lbl">ACERTOS</div>
                 </div>
-
                 <div class="result-stat">
                     <div class="result-stat-val rs-red" id="rs-w">0</div>
                     <div class="result-stat-lbl">ERROS</div>
                 </div>
-
                 <div class="result-stat">
                     <div class="result-stat-val rs-yellow" id="rs-s">0</div>
                     <div class="result-stat-lbl">PULADAS</div>
                 </div>
-
             </div>
-
             <div class="result-btns">
-
-                <button class="btn" id="btn-review">
-                    Ver erros
-                </button>
-
-                <button class="btn" id="btn-change-module">
-                    Trocar módulo
-                </button>
-
-                <button class="btn btn-primary" id="btn-restart">
-                    Refazer
-                </button>
-
+                <button class="btn" id="btn-review">Ver erros</button>
+                <button class="btn" id="btn-change-module">Trocar módulo</button>
+                <button class="btn btn-primary" id="btn-restart">Refazer</button>
             </div>
-
         </div>
-
     </div>
 
     <!-- REVISÃO -->
     <div id="screen-review" class="screen">
-
         <div class="review-hdr">
-
-            <button class="btn" id="btn-back">
-                ← Voltar
-            </button>
-
+            <button class="btn" id="btn-back">← Voltar</button>
             <h2>Questões erradas</h2>
-
         </div>
-
         <div id="review-list"></div>
-
     </div>
 
 </div>
