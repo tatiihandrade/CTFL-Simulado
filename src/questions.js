@@ -387,16 +387,6 @@ const QUESTIONS_CAP3 = [
     ans: 2
   },
   {
-    q: "Quais atividades são realizadas no âmbito do planejamento de uma revisão formal?",
-    opts: [
-      "Coleta de métricas para a avaliação da eficácia da revisão",
-      "Avaliação dos resultados da revisão em relação aos critérios de saída",
-      "Responder a quaisquer perguntas que os participantes possam ter",
-      "Definição e verificação do cumprimento dos critérios de entrada para a revisão"
-    ],
-    ans: 3
-  },
-  {
     q: "Qual dos tipos de revisão abaixo é a MELHOR opção para escolher quando a revisão deve seguir um processo formal baseado em regras e listas de verificação?",
     opts: [
       "Inspeção",
@@ -417,14 +407,14 @@ const QUESTIONS_CAP3 = [
     ans: 1
   },
   {
-    q: "Você será convidado para uma revisão baseada em checklist de uma descrição do processo de criação de documentos internos cujo objetivo é apresentar a distribuição do trabalho de forma clara. A checklist inclui:\nI. A pessoa que executa a atividade é claramente identificada?\nII. Os critérios de entrada estão claramente definidos?\nIII. Os critérios de saída estão claramente definidos?\nIV. Os papéis de apoio e seu escopo estão claramente definidos?\n\nTrecho avaliado: 'Depois de verificar a documentação do cliente para verificar se está completa e correta, o arquiteto do software cria a especificação do sistema. Uma vez concluída, ele convida os testadores e verificadores para a revisão. Uma lista de verificação descreve o escopo da revisão. Cada revisor convidado cria comentários de revisão - se necessário e conclui a revisão com um comentário oficial de revisão'.\n\nQual das seguintes declarações sobre sua revisão é correta?",
-    opts: [
-      "O ponto I da lista de verificação foi violado porque não está claro quem esta fornecendo a lista de verificação para o convite para a revisão",
-      "Você percebe que além do verificador, o validador também deve ser convidado. Como este item não faz parte de sua lista de verificação, você não cria um comentário correspondente",
-      "O ponto III da lista de verificação foi violado, pois não está claro o que marca a revisão como concluída.",
-      "O ponto II da lista de verificação foi violado porque não está claro qual condição deve ser preenchida para convidar para a revisão."
-    ],
-    ans: 0
+  q: "Você será convidado para uma revisão. O produto de trabalho a ser revisado é uma descrição do processo de criação de documentos internos. O objetivo da descrição é apresentar a distribuição do trabalho entre os diferentes papéis envolvidos no processo de uma forma que possa ser claramente compreendida por todos.\n\nVocê será convidado para uma revisão baseada em checklist. A lista de verificação também será enviada a você. Ela inclui os seguintes pontos:\n\nI. A pessoa que executa a atividade é claramente identificada para cada atividade?\nII. Os critérios de entrada estão claramente definidos para cada atividade?\nIII. Os critérios de saída estão claramente definidos para cada atividade?\nIV. Os papéis de apoio e seu escopo de trabalho estão claramente definidos para cada atividade?\n\nA seguir, um trecho do produto de trabalho a ser revisado:\n\n\"Depois de verificar a documentação do cliente para verificar se está completa e correta, o arquiteto do software cria a especificação do sistema. Uma vez que o arquiteto de software tenha concluído a especificação do sistema, ele convida os testadores e verificadores para a revisão. Uma lista de verificação descreve o escopo da revisão. Cada revisor convidado cria comentários de revisão — se necessário — e conclui a revisão com um comentário oficial de revisão.\"\n\nQual das seguintes declarações sobre sua revisão é correta?",
+  opts: [
+    "O ponto I da lista de verificação foi violado porque não está claro quem está fornecendo a lista de verificação para o convite para a revisão.",
+    "Você percebe que além do testador e do verificador, o validador também deve ser convidado. Como este item não faz parte de sua lista de verificação, você não cria um comentário correspondente.",
+    "O ponto III da lista de verificação foi violado, pois não está claro o que marca a revisão como concluída.",
+    "O ponto II da lista de verificação foi violado porque não está claro qual condição deve ser preenchida para convidar para a revisão."
+  ],
+  ans: 0
   },
   {
     q: "Qual das seguintes afirmações reflete CORRETAMENTE o valor dos testes estáticos?",
@@ -466,15 +456,15 @@ const QUESTIONS_CAP3 = [
     ],
     ans: 1
   },
-  {
-    q: "Você participa de uma revisão baseada em checklist de uma especificação de requisitos para uma biblioteca. Os requisitos contam com as seguintes afirmações:\n(6) Os bibliotecários podem obter respostas do sistema em 5 segundos\n(9) Os tomadores de empréstimo podem ser multados por não devolver um livro dentro de 3 semanas\n(10) Os tomadores de empréstimo podem obter respostas do sistema em 3 segundos\n(11) Emprestar um livro sem custo por um período máximo de 4 semanas\n(15) O sistema deve responder às solicitações dos usuários em 3 segundos\n\nSua tarefa é encontrar inconsistências/conflitos entre exigências individuais. Qual das seguintes CORRETAMENTE identifica inconsistências entre pares de requisitos?",
-    opts: [
-      "6-15, 9-11",
-      "6-15, 7-12",
-      "6-10, 6-15, 7-12",
-      "6-10, 6-15, 9-11"
-    ],
-    ans: 0
+{
+  q: "Você foi convidado a participar de uma revisão baseada em checklist do seguinte trecho da especificação de requisitos para um sistema de biblioteca:\n\nOs bibliotecários podem:\n(1) Registrar novos mutuários\n(2) Devolver livros dos mutuários\n(3) Aceitar multas de mutuários\n(4) Acrescentar novos livros ao sistema com seu ISBN, autor e título\n(5) Remover livros do sistema\n(6) Obter respostas do sistema em 5 segundos\n\nOs tomadores de empréstimo podem:\n(7) Pedir emprestado um máximo de 3 livros de uma vez\n(8) Ver a história dos livros que emprestaram/reservaram\n(9) Ser multado por não devolver um livro dentro de 3 semanas\n(10) Obter respostas do sistema em 3 segundos\n(11) Emprestar um livro sem custo por um período máximo de 4 semanas\n(12) Reservar livros (se estiverem em empréstimo)\n\nTodos os usuários (bibliotecários e mutuários):\n(13) Podem pesquisar livros por ISBN, autor ou título\n(14) Podem consultar o catálogo do sistema\n(15) O sistema deve responder às solicitações dos usuários em 3 segundos\n(16) A interface do usuário deve ser fácil de usar\n\nFoi-lhe atribuída a entrada da lista de verificação que exige a revisão da especificação em busca de inconsistências entre exigências individuais (ou seja, conflitos entre requisitos).\n\nQual dos seguintes CORRETAMENTE identifica inconsistências entre pares de requisitos?",
+  opts: [
+    "6-15, 9-11",
+    "6-15, 7-12",
+    "6-10, 6-15, 7-12",
+    "6-10, 6-15, 9-11"
+  ],
+  ans: 0
   },
   {
     q: "Em uma revisão formal, qual é o nome do papel do participante que dirige uma reunião de inspeção?",
@@ -507,24 +497,24 @@ const QUESTIONS_CAP3 = [
     ans: 3
   },
   {
-    q: "Você está trabalhando como um testador em uma equipe Ágil e participou de mais de duas dúzias de sessões de refinamento da história do usuário com o proprietário do produto e os desenvolvedores da equipe no início de cada iteração. Considerando os fatores de sucesso do processo, qual o maior benefício dessa atividade precoce?",
-    opts: [
-      "Garantir que os testes automatizados substituam totalmente a necessidade de revisões de código manuais.",
-      "Reduzir o tempo gasto nas reuniões de retrospectiva de sprint.",
-      "Detectar defeitos e ambiguidades nos requisitos antes mesmo do início do desenvolvimento, servindo como uma forma barata de prevenir falhas.",
-      "Permitir que os desenvolvedores criem códigos sem a necessidade de seguir padrões de arquitetura."
-    ],
-    ans: 2
+  q: "Você está trabalhando como um testador em uma equipe Ágil e participou de mais de duas dúzias de sessões de refinamento da história do usuário com o proprietário do produto e os desenvolvedores da equipe no início de cada iteração. As revisões se tornaram mais eficazes na detecção de defeitos nas histórias de usuários e o proprietário do produto ficou mais apto a corrigir esses defeitos. Você e a equipe notam que a velocidade da equipe, como mostrado nos gráficos de burndown, começou a aumentar.\n\nQual dos seguintes é um benefício dos testes estáticos que se aplica DIRETAMENTE ao aumento da velocidade?",
+  opts: [
+    "Reduzir o custo total da qualidade.",
+    "Redução do custo dos testes.",
+    "Aumento do custo total da qualidade.",
+    "Aumentar a produtividade do desenvolvimento."
+  ],
+  ans: 3
   },
   {
-    q: "Você está trabalhando em um projeto de videogame ágil baseado na mitologia grega. Considere a história de usuário da 'Vara de Midas':\n(1) A Vara deve funcionar em qualquer objeto ou jogador pelo toque.\n(2) Segurar o bastão não transforma o jogador que o segura em ouro.\n(3) Qualquer objeto ou jogador se transforma em ouro dentro de um milissegundo.\n(4) A Vara aparece como mostrado no Protótipo O.W.RoM.\n(5) A transformação começa no ponto de contato e se move a uma taxa de um metro por milissegundo.\n\nDurante a sessão de revisão de requisitos desta história de usuário, qual inconsistência crítica pode ser identificada entre os critérios?",
-    opts: [
-      "Os critérios (1) e (2) estão em conflito direto sobre quem pode segurar o objeto.",
-      "Os critérios (3) e (5) são inconsistentes entre si sobre a velocidade/tempo de propagação da transformação.",
-      "O critério (4) é redundante porque protótipos não podem ser usados em metodologias ágeis.",
-      "Não há inconsistências aparentes e o requisito está perfeitamente pronto para desenvolvimento."
-    ],
-    ans: 1
+  q: "Você está trabalhando em um projeto de desenvolvimento de videogame, usando métodos ágeis. Ele é baseado na mitologia grega e na história, e os jogadores podem desempenhar papéis-chave em cenários como as batalhas entre gregos e troianos.\n\nConsidere a seguinte história de usuário e seus critérios de aceite associados:\n\n\"Como um jogador, quero ser capaz de adquirir a Vara de Midas (um novo objeto mágico), para que eu possa transformar objetos e outros jogadores em ouro.\"\n\n(1) A Vara deve funcionar em qualquer objeto ou jogador, não importa o tamanho; funciona pelo simples toque.\n(2) Segurar o bastão não transforma o jogador que o segura em ouro.\n(3) Qualquer objeto ou jogador tocado pelo bastão se transforma completamente em ouro dentro de um milissegundo.\n(4) A Vara aparece como mostrado no Protótipo O.W.RoM.\n(5) A transformação começa no ponto de contato com a Vara e se move a uma taxa de um metro por milissegundo.\n\nVocê está participando de uma sessão de revisão baseada em checklist desta história de usuário. Esta história de usuário e seus critérios de aceite associados contêm quais dos seguintes defeitos típicos identificados por testes estáticos neste tipo de produto de trabalho?",
+  opts: [
+    "Desvio das Normas",
+    "Contradição",
+    "Vulnerabilidade de segurança",
+    "Lacunas de cobertura"
+  ],
+  ans: 1
   },
   {
     q: "Você está testando uma história de usuário com três critérios de aceite (AC1, AC2 e AC3) cobertos respectivamente pelos casos de teste TC1, TC2 e TC3. O histórico de execuções em três versões consecutivas do software foi:\n• Execução 1: TC1(Falhou), TC2(Aprovado), TC3(Falhou)\n• Execução 2: TC1(Aprovado), TC2(Falhou), TC3(Falhou)\n• Execução 3: TC1(Aprovado), TC2(Aprovado), TC3(Aprovado)\n\nOs testes são repetidos quando você é informado de que todos os defeitos encontrados na execução foram corrigidos. Quais dos testes/execuções acima agiram estritamente como testes de regressão (validação de código inalterado)?",
@@ -538,14 +528,14 @@ const QUESTIONS_CAP3 = [
     ans: 2
   },
   {
-    q: "Qual das opções a seguir NÃO é um benefício dos testes estáticos?",
-    opts: [
-      "A correction de defeitos encontrados durante o teste estático geralmente é muito mais barata do que a correção de defeitos encontrados durante o teste dinâmico.",
-      "Detecção de lacunas e inconsistências nos requisitos.",
-      "Ter um gerenciamento de defeitos menos dispendioso devido à facilidade de detectar defeitos mais tarde no processo SDLC.",
-      "Encontrar defeitos de codificação que poderiam não ter sido encontrados apenas com a realização de testes dinâmicos."
-    ],
-    ans: 2
+  q: "Qual das opções a seguir NÃO é um benefício dos testes estáticos?",
+  opts: [
+    "A correção de defeitos encontrados durante o teste estático geralmente é muito mais barata do que a correção de defeitos encontrados durante o teste dinâmico.",
+    "Detecção de lacunas e inconsistências nos requisitos.",
+    "Ter um gerenciamento de defeitos menos dispendioso devido à facilidade de detectar defeitos mais tarde no processo SDLC.",
+    "Encontrar defeitos de codificação que poderiam não ter sido encontrados apenas com a realização de testes dinâmicos."
+  ],
+  ans: 2
   },
   {
     q: "Qual dos seguintes é um benefício do feedback antecipado e frequente?",
@@ -598,14 +588,14 @@ const QUESTIONS_CAP3 = [
     ans: 0
   },
   {
-    q: "Qual dos seguintes é um benefício do feedback precoce e frequente das partes interessadas?",
-    opts: [
-      "Os usuários finais estão cientes de por que a entrega do produto de trabalho está atrasada",
-      "Os gerentes estão cientes de quais desenvolvedores são menos produtivos",
-      "Facilita a comunicação precoce de possíveis problemas de qualidade",
-      "Isso permite que os gerentes de projeto priorizem suas interações com as partes interessadas"
-    ],
-    ans: 2
+  q: "Qual dos seguintes é um benefício do feedback precoce e frequente das partes interessadas?",
+  opts: [
+    "Os usuários finais entendem melhor por que a entrega do produto de trabalho está atrasada.",
+    "Os gerentes estão cientes de quais desenvolvedores são menos produtivos.",
+    "Facilita a comunicação precoce de possíveis problemas de qualidade.",
+    "Isso permite que os gerentes de projeto priorizem suas interações com as partes interessadas."
+  ],
+  ans: 2
   },
   {
     q: "Dadas as seguintes descrições de tarefa:\n1. As características de qualidade a serem avaliadas e os critérios de saída são selecionados\n2. Todos têm acesso ao produto de trabalho\n3. Anomalias são identificadas no produto de trabalho\n4. Anomalias são discutidas\n\nE as seguintes atividades de revisão:\nA. Revisão individual\nB. Início da revisão\nC. Planejamento\nD. Comunicação e análise\n\nQual das seguintes MELHOR corresponde às descrições de tarefa e atividades?",
@@ -628,14 +618,14 @@ const QUESTIONS_CAP3 = [
     ans: 2
   },
   {
-    q: "No que diz respeito às responsabilidades fundamentais do papel do Autor no âmbito de revisões de produtos de trabalho, qual das seguintes afirmativas está correta?",
-    opts: [
-      "O autor é responsável por alocar o orçamento e o tempo dos testadores dedicados à atividade de revisão.",
-      "O autor lidera e modera as sessões de inspeção mais formais para garantir um ambiente seguro.",
-      "O autor cria e assume a responsabilidade de corrigir os defeitos identificados no produto de trabalho em análise.",
-      "O autor consolida as métricas finais geradas pelas revisões individuais para repassar à gerência sênior."
-    ],
-    ans: 2
+  q: "Quais atividades são realizadas no âmbito do planejamento de uma revisão formal?",
+  opts: [
+    "Coleta de métricas para a avaliação da eficácia da revisão.",
+    "Avaliação dos resultados da revisão em relação aos critérios de saída.",
+    "Responder a quaisquer perguntas que os participantes possam ter.",
+    "Definição e verificação do cumprimento dos critérios de entrada para a revisão."
+  ],
+  ans: 3
   },
   {
     q: "Dadas os seguintes defeitos exemplos:\ni. Duas partes diferentes da especificação de design discordam devido à complexidade do design\nii. O tempo de resposta é muito longo e faz com que os usuários percam a paciência\niii. Um caminho no código não pode ser alcançado durante a execução\niv. Uma variável é declarada, mas nunca usada posteriormente no programa\nv. A quantidade de memória necessária pelo programa para gerar um relatório é muito alta\n\nQual das seguintes opções IDENTIFICA MELHOR exemplos de defeitos que poderiam ser encontrados por testes estáticos (em vez de testes dinâmicos)?",
@@ -646,16 +636,6 @@ const QUESTIONS_CAP3 = [
       "i, iii, iv"
     ],
     ans: 3
-  },
-  {
-    q: "Durante um período intensivo de horas extras do projeto, um documento de arquitetura de sistema é enviado a vários participantes do projeto, anunciando uma revisão técnica previamente não planejada para ocorrer em uma semana. Qual fator organizacional ou de processo representa o maior risco de falha para o sucesso desta revisão?",
-    opts: [
-      "A falta de ferramentas automáticas para registrar os apontamentos de erro em tempo real.",
-      "A ausência de métricas formais para avaliar o desempenho individual do autor do documento.",
-      "A falta de tempo adequado para a preparação individual dos revisores devido à sobrecarga de tarefas existentes.",
-      "O uso excessivo de critérios de entrada muito restritivos antes da distribuição do rascunho."
-    ],
-    ans: 2
   },
   {
     q: "Dado os seguintes tipos de revisão:\n1. Revisão técnica\n2. Revisão informal\n3. Inspeção\n4. Revisão detalhada (Walkthrough)\n\nE as seguintes descrições:\nA. Inclui objetivos como alcançar consenso, gerar novas ideias e motivar os autores a melhorarem\nB. Inclui objetivos como educar os revisores, alcançar consenso, gerar novas ideias e detectar defeitos potenciais\nC. O principal objetivo é detectar defeitos potenciais e requer coleta de métricas para apoiar a melhoria do processo\nD. O principal objetivo é detectar defeitos potenciais e não gera uma saída formal documentada\n\nQual das seguintes combinações corresponde MELHOR aos tipos de revisão e às descrições?",
@@ -676,7 +656,27 @@ const QUESTIONS_CAP3 = [
       "Exigir que todas as reuniões de revisão sejam executadas sem preparação individual prévia dos participantes."
     ],
     ans: 2
-  }
+  },
+  {
+  q: "O software do sistema de navegação foi atualizado devido a ele sugerir rotas que violam as leis de trânsito, como dirigir na contramão de ruas de sentido único.\n\nQual das seguintes alternativas DESCREVE MELHOR os testes que serão realizados?",
+  opts: [
+    "Apenas testes de confirmação.",
+    "Apenas testes de regressão.",
+    "Testes de confirmação e depois testes de regressão.",
+    "Testes de regressão e depois testes de confirmação."
+  ],
+  ans: 2
+  }, 
+  {
+  q: "Qual dos seguintes é um fator que contribui para uma revisão bem-sucedida?",
+  opts: [
+    "Planejar cobrir um documento por revisão.",
+    "Definir a avaliação do revisor como um objetivo.",
+    "Dividir grandes produtos de trabalho em partes menores.",
+    "Garantir que a gerência participe como revisores."
+  ],
+  ans: 2
+}
 ];
 // ============================================================
 // QUESTÕES — CAPÍTULO 4
