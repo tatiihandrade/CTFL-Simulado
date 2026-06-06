@@ -509,8 +509,18 @@ function showResult() {
   document.getElementById('result-pct').textContent = `${pct}%`;
   document.getElementById('result-sub').textContent =
     `${correct} de ${totalRespondidas} respondidas · ${skipped} pulada${skipped !== 1 ? 's' : ''}`;
-  document.getElementById('result-verdict').textContent =
-    correct >= 26 ? '🎉 APROVADO' : '❌ REPROVADO';
+
+  let verdict;
+  if (simuladoOficial || examMode) {
+    verdict = correct >= 26 ? '🎉 APROVADO' : '❌ REPROVADO';
+  } else {
+    if (pct >= 85) verdict = '🎉 Excelente!';
+    else if (pct >= 70) verdict = '👍 Bom';
+    else if (pct >= 50) verdict = '📚 Regular';
+    else verdict = '❗ Precisa revisar';
+  }
+
+  document.getElementById('result-verdict').textContent = verdict;
   document.getElementById('rs-c').textContent = correct;
   document.getElementById('rs-w').textContent = wrong;
   document.getElementById('rs-s').textContent = skipped;
