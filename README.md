@@ -1,17 +1,34 @@
 # 📋 CTFL 4.0 — Simulado Interativo
 
-Simulado interativo para estudo e preparação para a certificação **ISTQB CTFL 4.0** (Certified Tester Foundation Level).
+Simulado interativo desenvolvido para auxiliar candidatos na preparação para a certificação ISTQB CTFL 4.0, oferecendo estudo por capítulos, provas simuladas, controle de tempo e acompanhamento de desempenho.
+
+---
+
+🚀 Estude por capítulos ou teste seus conhecimentos com uma prova simulada completa baseada no ISTQB CTFL 4.0.
 
 ---
 
 ## ✨ Funcionalidades
 
-- 📚 **Estudo por módulo** — 6 capítulos do syllabus CTFL 4.0
-- 🏆 **Prova oficial simulada** — todas as questões com cronômetro de 60 minutos
-- ✅ **Feedback imediato** — acertos e erros destacados após cada resposta
-- 🔁 **Revisão de erros** — veja exatamente onde errou e qual era a resposta correta
-- 📊 **Histórico de tentativas** — acompanhe sua evolução ao longo do tempo
-- 💾 **Persistência local** — histórico salvo no navegador via localStorage
+-📚 Estudo por módulo — 6 capítulos do syllabus CTFL 4.0
+-📝 Prova simulada — questões embaralhadas em formato semelhante ao exame oficial
+-⏱️ Cronômetro de 60 minutos na prova simulada
+-✅ Feedback imediato — acertos e erros destacados após cada resposta
+-🔁 Revisão de erros — veja exatamente onde errou e qual era a resposta correta
+-📊 Histórico de tentativas — acompanhe sua evolução ao longo do tempo
+-🏆 Resultado final com percentual de acertos e status de aprovação
+-💾 Persistência local — histórico salvo no navegador via localStorage
+
+---
+
+## ⭐ Destaques
+
+- Interface moderna e responsiva
+- Questões organizadas por capítulo do syllabus CTFL 4.0
+- Simulação completa do exame oficial
+- Controle de tempo com cronômetro
+- Histórico de desempenho salvo localmente
+- Desenvolvido com JavaScript puro (Vanilla JS)
 
 ---
 
@@ -59,6 +76,7 @@ O projeto está hospedado via **GitHub Pages**:
 | Capítulo 4 | Técnicas de Teste — caixa-preta, caixa-branca e baseadas em experiência |
 | Capítulo 5 | Gerenciamento de Teste — organização, planejamento, risco e monitoramento |
 | Capítulo 6 | Ferramentas de Teste — suporte a testes, automação e seleção |
+| 📝 Prova Simulada | Simulação do exame CTFL com cronômetro, pontuação e critério de aprovação |
 
 ---
 
