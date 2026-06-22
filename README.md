@@ -10,14 +10,14 @@ Simulado interativo desenvolvido para auxiliar candidatos na preparação para a
 
 ## ✨ Funcionalidades
 
--📚 Estudo por módulo — 6 capítulos do syllabus CTFL 4.0
--📝 Prova simulada — questões embaralhadas em formato semelhante ao exame oficial
--⏱️ Cronômetro de 60 minutos na prova simulada
--✅ Feedback imediato — acertos e erros destacados após cada resposta
--🔁 Revisão de erros — veja exatamente onde errou e qual era a resposta correta
--📊 Histórico de tentativas — acompanhe sua evolução ao longo do tempo
--🏆 Resultado final com percentual de acertos e status de aprovação
--💾 Persistência local — histórico salvo no navegador via localStorage
+- 📚 Estudo por módulo — 6 capítulos do syllabus CTFL 4.0
+- 📝 Prova simulada — questões embaralhadas em formato semelhante ao exame oficial
+- ⏱️ Cronômetro de 60 minutos na prova simulada
+- ✅ Feedback imediato — acertos e erros destacados após cada resposta
+- 🔁 Revisão de erros — veja exatamente onde errou e qual era a resposta correta
+- 📊 Histórico de tentativas — acompanhe sua evolução ao longo do tempo
+- 🏆 Resultado final com percentual de acertos e status de aprovação
+- 💾 Persistência local — histórico salvo no navegador via localStorage
 
 ---
 
